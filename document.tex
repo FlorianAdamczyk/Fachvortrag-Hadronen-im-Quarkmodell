@@ -13,12 +13,13 @@
 \usepackage{tikz}          % For creating diagrams
 \usepackage{booktabs}      % For better tables
 \usepackage{biblatex}      % For bibliography
+\usepackage{csquotes}      % Recommended for biblatex with babel/polyglossia
 
 % Bibliography file
 \addbibresource{literatur.bib}
 
 % Title page settings
-\title{Hadronen im Quarkmodelll}
+\title{Hadronen im Quarkmodell}
 \subtitle{Eine physikalische Betrachtung}
 \author{Dein Name}
 \date{Datum}
@@ -27,8 +28,7 @@
 	
 	% Title Slide
 	\begin{frame}
-		\titlepage
-	\end{frame}
+		\titlepage\end{frame}
 	
 	% Table of Contents
 	\begin{frame}{Inhaltsverzeichnis}
@@ -122,7 +122,6 @@
 	
 	% Bibliography Section
 	\begin{frame}[allowframebreaks]{Literatur}
-		\printbibliography
-	\end{frame}
+		\printbibliography\end{frame}
 	
 \end{document}

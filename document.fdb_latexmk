@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber document"] 0 "document.bcf" "document.bbl" "document" 1734083775.16548 0
+["biber document"] 0 "document.bcf" "document.bbl" "document" 1734084914.33516 0
   "document.bcf" 0 -1 0 "pdflatex"
   "literatur.bib" 0 -1 0 ""
   (generated)
   "document.bbl"
   "document.blg"
   (rewritten before read)
-["pdflatex"] 1734083771.33227 "c:/Users/flo/OneDrive/Uni aktuelle Projekte/WissPräs/Fachvortrag Hadronen im Quarkmodell/document.tex" "document.pdf" "document" 1734083775.16688 0
-  "C:/Users/flo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1734082448 278194 14217b9c74496d1250e88da84646256e ""
+["pdflatex"] 1734084910.34255 "c:/Users/flo/OneDrive/Uni aktuelle Projekte/WissPräs/Fachvortrag Hadronen im Quarkmodell/document.tex" "document.pdf" "document" 1734084914.33658 0
+  "C:/Users/flo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1734084715 278194 14217b9c74496d1250e88da84646256e ""
   "C:/Users/flo/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1734080135 11985962 65645ab06c0693951759e5c0083f90c1 ""
   "C:/Users/flo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1001775420 2971 def0b6c1f0b107b3b936def894055589 ""
   "C:/Users/flo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1001775420 2900 1537cc8184ad1792082cd229ecc269f4 ""
@@ -209,6 +209,9 @@
   "C:/Users/flo/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/lbx/german.lbx" 1711466047 34038 becdb53ec3bba7d52240eb831ab15506 ""
   "C:/Users/flo/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/lbx/ngerman.lbx" 1711466047 520 79db3ad588d8a32d9a5aa90a48bd8364 ""
   "C:/Users/flo/AppData/Local/Programs/MiKTeX/tex/latex/booktabs/booktabs.sty" 1579093635 6253 f1cb470c9199e7110a27851508ed7a5c ""
+  "C:/Users/flo/AppData/Local/Programs/MiKTeX/tex/latex/csquotes/csquotes.cfg" 1712234901 7068 06f8d141725d114847527a66439066b6 ""
+  "C:/Users/flo/AppData/Local/Programs/MiKTeX/tex/latex/csquotes/csquotes.def" 1712234901 22135 0975a49eeaed232aa861e9425ffb2e7c ""
+  "C:/Users/flo/AppData/Local/Programs/MiKTeX/tex/latex/csquotes/csquotes.sty" 1712234901 62767 e79d6d7a989e7da62dcf3d0a65c1faee ""
   "C:/Users/flo/AppData/Local/Programs/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1623003186 13886 d1306dcf79a944f6988e688c1785f9ce ""
   "C:/Users/flo/AppData/Local/Programs/MiKTeX/tex/latex/etoolbox/etoolbox.sty" 1601897756 46845 3b58f70c6e861a13d927bff09d35ecbc ""
   "C:/Users/flo/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.cfg" 1578053545 1104 7ac475a4e3466b0b43e138e9356bda83 ""
@@ -265,14 +268,14 @@
   "C:/Users/flo/AppData/Local/Programs/MiKTeX/tex/latex/translator/translator.sty" 1622471510 8765 56d370785f0143111ff9898b5adfe08e ""
   "C:/Users/flo/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/flo/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "c:/Users/flo/OneDrive/Uni aktuelle Projekte/WissPräs/Fachvortrag Hadronen im Quarkmodell/document.tex" 1734083770 3566 d63569de668eff4bfd14e9896b53e343 ""
-  "document.aux" 1734083774 3553 c9d990a95aa60c0ef6fd4b19e7bc5bf6 "pdflatex"
+  "c:/Users/flo/OneDrive/Uni aktuelle Projekte/WissPräs/Fachvortrag Hadronen im Quarkmodell/document.tex" 1734084909 3637 82e3114f80dfd722d4f66ef504da6942 ""
+  "document.aux" 1734084913 3553 c9d990a95aa60c0ef6fd4b19e7bc5bf6 "pdflatex"
   "document.bbl" 1734082469 0 d41d8cd98f00b204e9800998ecf8427e "biber document"
-  "document.nav" 1734083774 2068 50e54b4e8b7ac26009f5922294b2e180 "pdflatex"
-  "document.out" 1734083774 561 d7cf0f9081823c5120dfbdac6eb53360 "pdflatex"
-  "document.run.xml" 1734083774 2362 b76bc693cf50321c842588d0e67f3358 "pdflatex"
-  "document.tex" 1734083770 3566 d63569de668eff4bfd14e9896b53e343 ""
-  "document.toc" 1734083774 252 8d2d4492f56109688d78cfe7fcb71418 "pdflatex"
+  "document.nav" 1734084913 2068 50e54b4e8b7ac26009f5922294b2e180 "pdflatex"
+  "document.out" 1734084913 561 d7cf0f9081823c5120dfbdac6eb53360 "pdflatex"
+  "document.run.xml" 1734084913 2362 b76bc693cf50321c842588d0e67f3358 "pdflatex"
+  "document.tex" 1734084909 3637 82e3114f80dfd722d4f66ef504da6942 ""
+  "document.toc" 1734084913 252 8d2d4492f56109688d78cfe7fcb71418 "pdflatex"
   (generated)
   "document.aux"
   "document.bcf"
