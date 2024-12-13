@@ -1,0 +1,5 @@
+\babel@toc {ngerman}{}\relax 
+\beamer@sectionintoc {1}{Einführung}{3}{0}{1}
+\beamer@sectionintoc {2}{Theoretische Grundlagen}{5}{0}{2}
+\beamer@sectionintoc {3}{Experimentelle Beobachtungen}{8}{0}{3}
+\beamer@sectionintoc {4}{Zusammenfassung}{10}{0}{4}
