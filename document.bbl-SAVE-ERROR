@@ -1,0 +1,191 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{GellMann.1964}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=13fc9674bd1a57cf7c265f9a25b37ce7}{%
+           family={Gell-Mann},
+           familyi={G\bibinithyphendelim M\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{13fc9674bd1a57cf7c265f9a25b37ce7}
+      \strng{fullhash}{13fc9674bd1a57cf7c265f9a25b37ce7}
+      \strng{fullhashraw}{13fc9674bd1a57cf7c265f9a25b37ce7}
+      \strng{bibnamehash}{13fc9674bd1a57cf7c265f9a25b37ce7}
+      \strng{authorbibnamehash}{13fc9674bd1a57cf7c265f9a25b37ce7}
+      \strng{authornamehash}{13fc9674bd1a57cf7c265f9a25b37ce7}
+      \strng{authorfullhash}{13fc9674bd1a57cf7c265f9a25b37ce7}
+      \strng{authorfullhashraw}{13fc9674bd1a57cf7c265f9a25b37ce7}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00319163}
+      \field{journaltitle}{Physics Letters}
+      \field{number}{3}
+      \field{pagination}{page}
+      \field{title}{A schematic model of baryons and mesons}
+      \field{volume}{8}
+      \field{year}{1964}
+      \field{pages}{214\bibrangedash 215}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1016/S0031-9163(64)92001-3
+      \endverb
+      \verb{file}
+      \verb 1-s2{\_}0-S0031916364920013-main{\_}pdf:Attachments/1-s2{\_}0-S0031916364920013-main{\_}pdf.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{C.Amsler.2017}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2ba630cd7ca0f43e52b6ffb76105542c}{%
+           family={und{B.\bibnamedelimi Krusche}},
+           familyi={u\bibinitperiod},
+           given={{C. Amsler}},
+           giveni={C\bibinitperiod},
+           givenun=0,
+           prefix={und{T.\bibnamedelimi DeGrand}},
+           prefixi={u\bibinitperiod},
+           prefixun=0}}%
+      }
+      \strng{namehash}{2ba630cd7ca0f43e52b6ffb76105542c}
+      \strng{fullhash}{2ba630cd7ca0f43e52b6ffb76105542c}
+      \strng{fullhashraw}{2ba630cd7ca0f43e52b6ffb76105542c}
+      \strng{bibnamehash}{2ba630cd7ca0f43e52b6ffb76105542c}
+      \strng{authorbibnamehash}{2ba630cd7ca0f43e52b6ffb76105542c}
+      \strng{authornamehash}{2ba630cd7ca0f43e52b6ffb76105542c}
+      \strng{authorfullhash}{2ba630cd7ca0f43e52b6ffb76105542c}
+      \strng{authorfullhashraw}{2ba630cd7ca0f43e52b6ffb76105542c}
+      \field{sortinit}{u}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{pagination}{page}
+      \field{title}{Quark Model: (Particle Data Group), Phys. Rev. D 98, 030001}
+      \field{urlday}{13}
+      \field{urlmonth}{12}
+      \field{urlyear}{2024}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \field{pages}{13}
+      \range{pages}{1}
+      \verb{file}
+      \verb rpp2018-rev-quark-model:Attachments/rpp2018-rev-quark-model.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://pdg.lbl.gov/2018/reviews/rpp2018-rev-quark-model.pdf
+      \endverb
+      \verb{url}
+      \verb https://pdg.lbl.gov/2018/reviews/rpp2018-rev-quark-model.pdf
+      \endverb
+    \endentry
+    \entry{Zweig.1964}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=25ea5cebaf2ad3efbb74d29aa56556fb}{%
+           family={Zweig},
+           familyi={Z\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {CERN Document Server}%
+      }
+      \strng{namehash}{25ea5cebaf2ad3efbb74d29aa56556fb}
+      \strng{fullhash}{25ea5cebaf2ad3efbb74d29aa56556fb}
+      \strng{fullhashraw}{25ea5cebaf2ad3efbb74d29aa56556fb}
+      \strng{bibnamehash}{25ea5cebaf2ad3efbb74d29aa56556fb}
+      \strng{authorbibnamehash}{25ea5cebaf2ad3efbb74d29aa56556fb}
+      \strng{authornamehash}{25ea5cebaf2ad3efbb74d29aa56556fb}
+      \strng{authorfullhash}{25ea5cebaf2ad3efbb74d29aa56556fb}
+      \strng{authorfullhashraw}{25ea5cebaf2ad3efbb74d29aa56556fb}
+      \field{extraname}{1}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Table 7 in this preprint was corrected shortly after it was first produced. The corrected version, carrying the same front page as the original version, was widely circulated early in the spring of 1964. However, the corrected version was never captured by the CERN Archive. Attached to this record, as {"}additional file{"}, is the version kept in the CERN Archive. In addition there is a document, with the same title, referred to as {"}Version 1{"}. This document corresponds to {<}a href={"}https://cds.cern.ch/record/352337{"}{>}CERN preprint 8182/TH.401, Jan. 17, 1964.}
+      \field{title}{An SU$_3$ model for strong interaction symmetry and its breaking}
+      \field{type}{techreport}
+      \field{year}{1964}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.17181/CERN-TH-412
+      \endverb
+      \verb{file}
+      \verb An SU3 model for strong interaction symmetry and its breaking:Attachments/An SU3 model for strong interaction symmetry and its breaking.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{Zweig.1964b}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=25ea5cebaf2ad3efbb74d29aa56556fb}{%
+           family={Zweig},
+           familyi={Z\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {CERN Document Server}%
+      }
+      \strng{namehash}{25ea5cebaf2ad3efbb74d29aa56556fb}
+      \strng{fullhash}{25ea5cebaf2ad3efbb74d29aa56556fb}
+      \strng{fullhashraw}{25ea5cebaf2ad3efbb74d29aa56556fb}
+      \strng{bibnamehash}{25ea5cebaf2ad3efbb74d29aa56556fb}
+      \strng{authorbibnamehash}{25ea5cebaf2ad3efbb74d29aa56556fb}
+      \strng{authornamehash}{25ea5cebaf2ad3efbb74d29aa56556fb}
+      \strng{authorfullhash}{25ea5cebaf2ad3efbb74d29aa56556fb}
+      \strng{authorfullhashraw}{25ea5cebaf2ad3efbb74d29aa56556fb}
+      \field{extraname}{2}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{An updated version of the paper is available as {<}a href={"}https://cds.cern.ch/record/570209{"}{>}CERN-TH-412, Feb. 1964.}
+      \field{title}{An SU$_3$ model for strong interaction symmetry and its breaking}
+      \field{type}{techreport}
+      \field{year}{1964}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.17181/CERN-TH-401
+      \endverb
+      \verb{file}
+      \verb An SU3 model for strong interaction symmetry and its breaking:Attachments/An SU3 model for strong interaction symmetry and its breaking.pdf:application/pdf
+      \endverb
+    \endentry
+  \enddatalist
+  \missing{Wikipedia.2024}
+  \missing{Wikipedia.2024b}
+\endrefsection
+\endinput
+

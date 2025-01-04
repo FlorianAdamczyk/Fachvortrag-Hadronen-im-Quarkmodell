@@ -12,11 +12,13 @@
 \usepackage{amsmath, amssymb} % For math symbols
 \usepackage{tikz}          % For creating diagrams
 \usepackage{booktabs}      % For better tables
-\usepackage{biblatex}      % For bibliography
-\usepackage{csquotes}      % Recommended for biblatex with babel/polyglossia
+\usepackage[sfdefault]{FiraSans} % For FiraSans font
+\usepackage{caption} % For customizing captions
+\usepackage[backend=biber, style=authoryear]{biblatex} % For bibliography
+\usepackage{csquotes} % For context-sensitive quotation marks
 
 % Bibliography file
-\addbibresource{literatur.bib}
+\addbibresource{Hadronen im Quarkmodell.bib}
 
 % Title page settings
 \title{Hadronen im Quarkmodell}
@@ -25,103 +27,95 @@
 \date{Datum}
 
 \begin{document}
-	
-	% Title Slide
-	\begin{frame}
-		\titlepage\end{frame}
-	
-	% Table of Contents
-	\begin{frame}{Inhaltsverzeichnis}
-		\tableofcontents
-	\end{frame}
-	
-	% Section: Einführung
-	\section{Einführung}
-	\begin{frame}{Einführung}
-		\frametitle{Einführung}
-		\begin{block}{Ziel der Präsentation}
-			\begin{itemize}
-				\item Vorstellung der Grundlagen des Quarkmodells
-				\item Beschreibung der Hadronenstruktur
-				\item Diskussion aktueller Herausforderungen
-			\end{itemize}
-		\end{block}
-		\begin{figure}
-			\centering
-			\includegraphics[width=0.6\linewidth]{example-image} % Replace with actual image path
-			\caption{Darstellung eines Hadronenmodells}
-		\end{figure}
-		\vfill
-		\tiny Quelle: Beispielquelle für das Bild
-	\end{frame}
-	
-	% Section: Theoretische Grundlagen
-	\section{Theoretische Grundlagen}
-	\begin{frame}{Quarkmodell: Ein Überblick}
-		\frametitle{Theoretische Grundlagen}
-		\begin{itemize}
-			\item Quarks als fundamentale Bausteine
-			\item Drei Farbladungen: Rot, Grün, Blau
-			\item Austausch von Gluonen $\Rightarrow$ starke Wechselwirkung
-		\end{itemize}
-		\begin{equation}
-			F = \frac{Gm_1m_2}{r^2} % Beispiel für eine Formel
-		\end{equation}
-	\end{frame}
-	
-	\begin{frame}{Hadronenklassen}
-		\frametitle{Theoretische Grundlagen}
-		\begin{block}{Baryonen}
-			\begin{itemize}
-				\item Drei Quarks
-				\item Beispiele: Proton, Neutron
-			\end{itemize}
-		\end{block}
-		\begin{block}{Mesonen}
-			\begin{itemize}
-				\item Ein Quark und ein Antiquark
-				\item Beispiele: Pionen, Kaonen
-			\end{itemize}
-		\end{block}
-	\end{frame}
-	
-	% Section: Experimentelle Beobachtungen
-	\section{Experimentelle Beobachtungen}
-	\begin{frame}{Nachweis von Quarks}
-		\frametitle{Experimentelle Beobachtungen}
-		\begin{figure}
-			\centering
-			\includegraphics[width=0.7\linewidth]{example-image} % Replace with actual image path
-			\caption{Streuexperiment zur Quarkstruktur}
-		\end{figure}
-		\vfill
-		\tiny Quelle: Beispielquelle für das Bild
-		\begin{itemize}
-			\item Streuexperimente als zentrale Methode
-			\item Nachweis von Quark-Ladungen
-		\end{itemize}
-	\end{frame}
-	
-	% Section: Zusammenfassung
-	\section{Zusammenfassung}
-	\begin{frame}{Schlussfolgerungen}
-		\frametitle{Zusammenfassung}
-		\begin{itemize}
-			\item Hadronen sind komplexe Strukturen aus Quarks
-			\item Fortschritte in der Theorie und Experimente erforderlich
-			\item Bedeutung des Quarkmodells für die moderne Physik
-		\end{itemize}
-	\end{frame}
-	
-	% Thank You Slide
-	\begin{frame}{Vielen Dank!}
-		\begin{center}
-			\Huge Fragen?
-		\end{center}
-	\end{frame}
-	
-	% Bibliography Section
-	\begin{frame}[allowframebreaks]{Literatur}
-		\printbibliography\end{frame}
-	
+    
+    % Title Slide
+    \begin{frame}
+        \titlepage
+    \end{frame}
+    
+    % Table of Contents
+    \begin{frame}{Inhaltsverzeichnis}
+        \tableofcontents
+    \end{frame}
+    
+    % Section: Einführung
+    \section{Einführung}
+    \begin{frame}{Einführung}
+        \begin{block}{Ziel der Präsentation}
+            \begin{itemize}
+                \item Vorstellung der Grundlagen des Quarkmodells~\cite{C.Amsler.2017}
+                \item Beschreibung der Hadronenstruktur~\cite{GellMann.1964}
+                \item Diskussion aktueller Herausforderungen~\cite{Zweig.1964}~und~\cite{Zweig.1964b}
+            \end{itemize}
+        \end{block}
+        \begin{figure}
+            \centering
+            \includegraphics[width=0.6\linewidth]{Bosons-Hadrons-Fermions-RGB-png2.png}\footnote{aus \cite{Wikipedia.Standardmodell}: By Hugo Spinelli\nobreakspace-- Own work, CC0}
+        \end{figure}
+    \end{frame}
+    
+    % Section: Theoretische Grundlagen
+    \section{Theoretische Grundlagen}
+    \begin{frame}{Quarkmodell: Ein Überblick}
+        \begin{itemize}
+            \item Quarks als fundamentale Bausteine~\cite{Aaij.2015}
+            \item Drei Farbladungen: Rot, Grün, Blau\cite{Wikipedia.Hadron}
+            \item Austausch von Gluonen $\Rightarrow$ starke Wechselwirkung\cite{Aaij.2019}
+        \end{itemize}
+        \begin{equation}
+            F = \frac{Gm_1m_2}{r^2} % Beispiel für eine Formel
+        \end{equation}
+    \end{frame}
+    
+    \begin{frame}{Hadronenklassen}
+        \begin{block}{Baryonen}
+            \begin{itemize}
+                \item Drei Quarks
+                \item Beispiele: Proton, Neutron
+            \end{itemize}
+        \end{block}
+        \begin{block}{Mesonen}
+            \begin{itemize}
+                \item Ein Quark und ein Antiquark
+                \item Beispiele: Pionen, Kaonen
+            \end{itemize}
+        \end{block}
+    \end{frame}
+    
+    % Section: Experimentelle Beobachtungen
+    \section{Experimentelle Beobachtungen}
+    \begin{frame}{Nachweis von Quarks}
+        \begin{figure}
+            \centering
+            \includegraphics[width=0.7\linewidth]{example-image} % Replace with actual image path
+            \caption{Streuexperiment zur Quarkstruktur}
+        \end{figure}
+        \begin{itemize}
+            \item Streuexperimente als zentrale Methode
+            \item Nachweis von Quark-Ladungen
+        \end{itemize}
+    \end{frame}
+    
+    % Section: Zusammenfassung
+    \section{Zusammenfassung}
+    \begin{frame}{Schlussfolgerungen}
+        \begin{itemize}
+            \item Hadronen sind komplexe Strukturen aus Quarks
+            \item Fortschritte in der Theorie und Experimente erforderlich
+            \item Bedeutung des Quarkmodells für die moderne Physik
+        \end{itemize}
+    \end{frame}
+    
+    % Thank You Slide
+    \begin{frame}{Vielen Dank!}
+        \begin{center}
+            \Huge Fragen?
+        \end{center}
+    \end{frame}
+    
+    % Bibliography
+    \begin{frame}[allowframebreaks]{Literatur}
+        \printbibliography
+    \end{frame}
+    
 \end{document}
