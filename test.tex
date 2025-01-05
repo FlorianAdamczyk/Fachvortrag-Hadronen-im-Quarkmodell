@@ -1,18 +1,31 @@
 \documentclass{article}
-\usepackage[backend=biber,style=phys]{biblatex}
+
+% Packages
+\usepackage[utf8]{inputenc} % Encoding
+\usepackage[T1]{fontenc}   % Font encoding
+\usepackage[ngerman]{babel} % German language
+\usepackage{csquotes} % For context-sensitive quotation marks
+\usepackage[backend=biber, style=authoryear]{biblatex} % For bibliography
+
 % Bibliography file
-\addbibresource{Hadronen im Quarkmodell.bib}
+\addbibresource{Sources.bib}
+
+\title{Minimalbeispiel für Zitate}
+\author{Flo}
+\date{\today}
 
 \begin{document}
 
-\title{Minimalbeispiel zum Zitieren}
-\author{Flo}
-\date{\today}
 \maketitle
 
-\section{Einleitung}
-Hier ist ein Beispiel für eine Zitierung~\cite{Aaij.2015}.
+\section{Einführung}
+Dies ist ein Minimalbeispiel, um das Zitieren zu testen. Hier ist ein Beispielzitat~\cite{Zweig.1964b}.
 
-\printbibliography
+\section{Weitere Beispiele}
+Ein weiteres Beispielzitat~\cite{GellMann.1964, Zweig.1964} zeigt, wie man mehrere Quellen zitiert.
 
-\end{document}
+Soo, jetzt versuche ich noch etwas ganz gewagtes zu zitieren:~\cite{C.Amsler.2017}.
+
+Und wie siehts mit Onlinequellen aus?~\cite{Wikipedia.Standardmodell}
+
+\printbibliography\end{document}

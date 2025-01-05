@@ -10,28 +10,23 @@
 \usepackage[ngerman]{babel} % German language
 \usepackage{graphicx}       % For including images
 \usepackage{amsmath, amssymb} % For math symbols
-\usepackage{tikz}          % For creating diagrams
-\usepackage{booktabs}      % For better tables
 \usepackage[sfdefault]{FiraSans} % For FiraSans font
-\usepackage{caption} % For customizing captions
-\usepackage[backend=biber, style=authoryear]{biblatex} % For bibliography
 \usepackage{csquotes} % For context-sensitive quotation marks
+\usepackage{biblatex} % For bibliography
 
-% Bibliography file
-\addbibresource{Hadronen im Quarkmodell.bib}
+% Bibliography settings
+\addbibresource{references.bib} % Path to the bibliography file
 
 % Title page settings
 \title{Hadronen im Quarkmodell}
 \subtitle{Eine physikalische Betrachtung}
-\author{Dein Name}
-\date{Datum}
+\author{Florian Adamczyk}
+\date{\today}
 
 \begin{document}
     
     % Title Slide
-    \begin{frame}
-        \titlepage
-    \end{frame}
+    \begin{frame}\titlepage\end{frame}
     
     % Table of Contents
     \begin{frame}{Inhaltsverzeichnis}
@@ -43,14 +38,14 @@
     \begin{frame}{Einführung}
         \begin{block}{Ziel der Präsentation}
             \begin{itemize}
-                \item Vorstellung der Grundlagen des Quarkmodells~\cite{C.Amsler.2017}
-                \item Beschreibung der Hadronenstruktur~\cite{GellMann.1964}
-                \item Diskussion aktueller Herausforderungen~\cite{Zweig.1964}~und~\cite{Zweig.1964b}
+                \item Vorstellung der Grundlagen des Quarkmodells
+                \item Beschreibung der Hadronenstruktur
+                \item Diskussion aktueller Herausforderungen
             \end{itemize}
         \end{block}
         \begin{figure}
             \centering
-            \includegraphics[width=0.6\linewidth]{Bosons-Hadrons-Fermions-RGB-png2.png}\footnote{aus \cite{Wikipedia.Standardmodell}: By Hugo Spinelli\nobreakspace-- Own work, CC0}
+            \includegraphics[width=0.6\linewidth]{Bosons-Hadrons-Fermions-RGB-png2.png}
         \end{figure}
     \end{frame}
     
@@ -58,13 +53,13 @@
     \section{Theoretische Grundlagen}
     \begin{frame}{Quarkmodell: Ein Überblick}
         \begin{itemize}
-            \item Quarks als fundamentale Bausteine~\cite{Aaij.2015}
-            \item Drei Farbladungen: Rot, Grün, Blau\cite{Wikipedia.Hadron}
-            \item Austausch von Gluonen $\Rightarrow$ starke Wechselwirkung\cite{Aaij.2019}
+            \item Quarks als fundamentale Bausteine
+            \item Drei Farbladungen: Rot, Grün, Blau
+            \item Austausch von Gluonen $\Rightarrow$ starke Wechselwirkung
         \end{itemize}
-        \begin{equation}
+        \begin{equation*}
             F = \frac{Gm_1m_2}{r^2} % Beispiel für eine Formel
-        \end{equation}
+        \end{equation*}
     \end{frame}
     
     \begin{frame}{Hadronenklassen}
@@ -87,12 +82,21 @@
     \begin{frame}{Nachweis von Quarks}
         \begin{figure}
             \centering
-            \includegraphics[width=0.7\linewidth]{example-image} % Replace with actual image path
-            \caption{Streuexperiment zur Quarkstruktur}
+            \includegraphics[width=\linewidth, height=0.5\textheight, keepaspectratio]{lhcb-pc4450.png} % Replace with actual image path       \caption{Streuexperiment zur Quarkstruktur}
         \end{figure}
         \begin{itemize}
             \item Streuexperimente als zentrale Methode
             \item Nachweis von Quark-Ladungen
+        \end{itemize}
+    \end{frame}
+    
+    % New Slide with Citations
+    \begin{frame}{Wichtige Quellen}
+        \begin{itemize}
+            \item Die Grundlagen des Quarkmodells wurden von Gell-Mann (1964) und Zweig (1964a, 1964b) entwickelt~\cite{GellMann.1964, Zweig.1964, Zweig.1964b}.
+            \item Amsler et al. (2017) bieten eine umfassende Übersicht über das Quarkmodell~\cite{C.Amsler.2017}.
+            \item Die Entdeckung von Pentaquark-Zuständen wurde von Aaij et al. (2015, 2019) berichtet~\cite{Aaij.2019}.
+            \item Wikipedia bietet zugängliche Erklärungen zu Hadronen und dem Standardmodell~\cite{Wikipedia.Hadron, Wikipedia.Standardmodell}.
         \end{itemize}
     \end{frame}
     
@@ -112,9 +116,9 @@
             \Huge Fragen?
         \end{center}
     \end{frame}
-    
+
     % Bibliography
-    \begin{frame}[allowframebreaks]{Literatur}
+    \begin{frame}[allowframebreaks]{Literaturverzeichnis}
         \printbibliography
     \end{frame}
     
