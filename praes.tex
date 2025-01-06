@@ -1,0 +1,40 @@
+\documentclass[aspectratio=169]{beamer} % 16:9 aspect ratio for modern screens
+
+% Theme settings
+\usetheme{metropolis} % Minimalist theme
+
+% Packages
+\usepackage[T1]{fontenc}   % Font encoding
+\usepackage[ngerman]{babel} % German language
+\usepackage[sfdefault]{FiraSans} % For FiraSans font
+\usepackage[style=authoryear, sorting=ynt]{biblatex} % For bibliography
+\usepackage{csquotes} % Recommended for biblatex with babel/polyglossia
+\usepackage{textgreek} % Greek letters in text mode (aus references von Citavi)
+
+% Bibliography settings
+\addbibresource{references.bib} % Path to the bibliography file
+
+% Title page settings
+\title{Minimalistische Präsentation}
+\author{Ihr Name}\date{\today}
+
+\begin{document}
+
+    \begin{frame}{Hauptteil}
+        \begin{itemize}
+            \item Das ist laut~\cite{Zweig.1964b} wichtig.
+            \item Und das laut~\cite{Zweig.1964} auch.
+            \item wie funktioniert das hier:~\cite{Wikipedia.Standardmodell}
+            \item Und das:~\cite{Wikipedia.Hadron}
+            \item wieso, funktioniert das~\cite{GellMann.1964} auch?
+            \item und in~\cite{C.Amsler.2017} sagen sie das.
+            \item hier wirds spannend:~\cite{Aaij.2015}
+            % \item Die Grundlagen des Quarkmodells wurden irgendwann entwickelt.~\cite{Aaij.2019}.
+        \end{itemize}
+    \end{frame}
+
+    % Bibliography
+    \begin{frame}[allowframebreaks]{Literaturverzeichnis}
+        \printbibliography\end{frame}
+
+\end{document}

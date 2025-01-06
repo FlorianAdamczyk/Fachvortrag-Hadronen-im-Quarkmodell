@@ -5,14 +5,13 @@
 \usefonttheme{professionalfonts} % Font theme
 
 % Packages
-\usepackage[utf8]{inputenc} % Encoding
 \usepackage[T1]{fontenc}   % Font encoding
 \usepackage[ngerman]{babel} % German language
 \usepackage{graphicx}       % For including images
 \usepackage{amsmath, amssymb} % For math symbols
 \usepackage[sfdefault]{FiraSans} % For FiraSans font
 \usepackage{csquotes} % For context-sensitive quotation marks
-\usepackage{biblatex} % For bibliography
+\usepackage[style=numeric, sorting=ynt]{biblatex} % For bibliography
 
 % Bibliography settings
 \addbibresource{references.bib} % Path to the bibliography file
@@ -93,6 +92,7 @@
     % New Slide with Citations
     \begin{frame}{Wichtige Quellen}
         \begin{itemize}
+          \item Test
             \item Die Grundlagen des Quarkmodells wurden von Gell-Mann (1964) und Zweig (1964a, 1964b) entwickelt~\cite{GellMann.1964, Zweig.1964, Zweig.1964b}.
             \item Amsler et al. (2017) bieten eine umfassende Übersicht über das Quarkmodell~\cite{C.Amsler.2017}.
             \item Die Entdeckung von Pentaquark-Zuständen wurde von Aaij et al. (2015, 2019) berichtet~\cite{Aaij.2019}.
@@ -119,7 +119,6 @@
 
     % Bibliography
     \begin{frame}[allowframebreaks]{Literaturverzeichnis}
-        \printbibliography
-    \end{frame}
+        \printbibliography\end{frame}
     
 \end{document}

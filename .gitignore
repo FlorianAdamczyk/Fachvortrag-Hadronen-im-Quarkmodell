@@ -29,6 +29,7 @@
 *.tdo
 *.thm
 *.vrb
+*.run.xml
 
 # PDF files
 *.pdf
