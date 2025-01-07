@@ -1,7 +1,14 @@
 \documentclass[aspectratio=169]{beamer} % 16:9 aspect ratio for modern screens
 
 % Theme settings
-\usetheme{metropolis} % Minimalist theme
+\usetheme[progressbar=foot]{metropolis} % Minimalist theme
+\metroset{progressbar=frametitle} % Progress bar soll nur folien mit titel berücksichtigen?
+
+\makeatletter
+    \setlength{\metropolis@progressinheadfoot@linewidth}{1.5pt}
+\makeatother
+
+
 \usefonttheme{professionalfonts} % Font theme
 
 % Packages
@@ -50,7 +57,11 @@
 \begin{document}
     
     % Title Slide
-    \begin{frame}\titlepage\end{frame}
+    \begin{frame}
+        \vspace*{-0.6cm}
+        \titlepage
+        \vspace*{-1.6cm}
+    \end{frame}
     
     % Table of Contents
     \begin{frame}{Inhaltsverzeichnis}
@@ -118,6 +129,21 @@
             \item Nachweis von Quark-Ladungen
         \end{itemize}
     \end{frame}
+
+    \subsection{Pentaquarks}
+    \begin{frame}{Pentaquarks}
+        \begin{figure}
+            \centering
+            \includegraphics[width=0.6\linewidth]{Bosons-Hadrons-Fermions-RGB-png2.png}
+            \figciteweb{Wikipedia.Hadron}
+        \end{figure}
+        \begin{itemize}
+            \item Fünf Quarks in gebundener Struktur
+            \item Experimentelle Hinweise seit 2015
+        \end{itemize}
+    \end{frame}
+
+
     
     % New Slide with Citations
     \begin{frame}{Wichtige Quellen}
@@ -129,6 +155,11 @@
             \item Wikipedia bietet zugängliche Erklärungen zu Hadronen und dem Standardmodell~\cite{Wikipedia.Hadron, Wikipedia.Standardmodell}.
         \end{itemize}
     \end{frame}
+
+    \section{Mesonen}
+    \section{Baryonen}
+    \section{Pentaquarks}
+    \section{Zusammenfassunggg}
     
     % Section: Zusammenfassung
     \section{Zusammenfassung}
@@ -148,11 +179,8 @@
     \end{frame}
 
     % Bibliography    
-    \begin{frame}[allowframebreaks]{Literaturverzeichnis}
-    % \printbibheading
-        % \printbibliography[nottype=online,heading=subbibliography,title={Bücherquellen und Artikel}, nottype=unpublished]
-        % \printbibliography[type=online,heading=subbibliography,title={Onlinequellen}, nottype=unpublished]
-    \printbibliography[nottype=unpublished]
+    \begin{frame}[allowframebreaks, noframenumbering, plain]{Literaturverzeichnis}
+   \printbibliography[nottype=unpublished]
     \end{frame}
 
 \end{document}
