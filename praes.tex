@@ -7,12 +7,23 @@
 \usepackage[T1]{fontenc}   % Font encoding
 \usepackage[ngerman]{babel} % German language
 \usepackage[sfdefault]{FiraSans} % For FiraSans font
-\usepackage[style=authoryear, sorting=ynt]{biblatex} % For bibliography
+\usepackage[backend=biber, style=authoryear, sorting=ynt]{biblatex} % For bibliography
 \usepackage{csquotes} % Recommended for biblatex with babel/polyglossia
 \usepackage{textgreek} % Greek letters in text mode (aus references von Citavi)
 
 % Bibliography settings
 \addbibresource{references.bib} % Path to the bibliography file
+
+% ...existing code...
+\DeclareCiteCommand{\autortitel}
+  {\usebibmacro{prenote}}
+  {\usebibmacro{citeindex}%
+   \printnames{labelname}%
+   \setunit{\addcolon\space}% <- Hier wird das Trennzeichen ":" hinzugefügt
+   \printfield{title}}
+  {\multicitedelim}
+  {\usebibmacro{postnote}}
+% ...existing code...
 
 % Title page settings
 \title{Minimalistische Präsentation}
@@ -22,14 +33,16 @@
 
     \begin{frame}{Hauptteil}
         \begin{itemize}
-            \item Das ist laut~\cite{Zweig.1964b} wichtig.
-            \item Und das laut~\cite{Zweig.1964} auch.
-            \item wie funktioniert das hier:~\cite{Wikipedia.Standardmodell}
-            \item Und das:~\cite{Wikipedia.Hadron}
-            \item wieso, funktioniert das~\cite{GellMann.1964} auch?
-            \item und in~\cite{C.Amsler.2017} sagen sie das.
-            \item hier wirds spannend:~\cite{Aaij.2015}
-            % \item Die Grundlagen des Quarkmodells wurden irgendwann entwickelt.~\cite{Aaij.2019}.
+            \item Das ist laut~\parencite{Zweig.1964b} wichtig.
+            \item QUarks sind bunt~\fullcite{Wikipedia.Hadron}
+            \item Bla Bla das geht laut~\autortitel{Wikipedia.Standardmodell} auch.
+            \item Und das laut~\footcite{Zweig.1964} auch.
+            \item wie funktioniert das hier:~\textcite{Wikipedia.Standardmodell}
+            \item Und das:~\citetitle{Wikipedia.Hadron}
+            \item wieso, funktioniert das~\autocite{GellMann.1964} auch?
+            \item und in~\cite{Aaij.2015} sagen sie das.
+            \item hier wirds spannend:~\footcitetext{Aaij.2015}
+            \item Die Grundlagen des Quarkmodells wurden irgendwann entwickelt.~\parencite{Aaij.2019}.
         \end{itemize}
     \end{frame}
 
