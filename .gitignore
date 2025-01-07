@@ -30,6 +30,12 @@
 *.thm
 *.vrb
 *.run.xml
+*.xdv
+*.bcf
+*.synctex(busy)
+*.synctex.gz(busy)
+
+
 
 # PDF files
 *.pdf
