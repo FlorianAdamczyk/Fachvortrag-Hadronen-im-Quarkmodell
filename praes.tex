@@ -38,6 +38,7 @@
   {\multicitedelim}
   {\usebibmacro{postnote}}
 
+  
 % Title page settings
 \title{Hadronen im Quarkmodell}
 \subtitle{Eine physikalische Betrachtung}
@@ -103,7 +104,10 @@
     \begin{frame}{Nachweis von Quarks}
         \begin{figure}
             \centering
-            \includegraphics[width=\linewidth, height=0.5\textheight, keepaspectratio]{lhcb-pc4450.png} %\caption{Streuexperiment zur Quarkstruktur}
+            \includegraphics[width=\linewidth, height=0.5\textheight, keepaspectratio]{lhcb-pc4450.png}
+            \\[-3mm]{\scriptsize Quelle: \cite{Aaij.2019}}
+            %\caption{Streuexperiment zur Quarkstruktur, Quelle: \cite{Aaij.2019}}
+            %\footnote{\citeauthortitle{Aaij.2019}}
         \end{figure}
         \begin{itemize}
             \item Streuexperimente als zentrale Methode
@@ -139,9 +143,12 @@
         \end{center}
     \end{frame}
 
-    % Bibliography
+    % Bibliography    
     \begin{frame}[allowframebreaks]{Literaturverzeichnis}
-        \printbibliography[nottype=unpublished]
+    % \printbibheading
+        % \printbibliography[nottype=online,heading=subbibliography,title={Bücherquellen und Artikel}, nottype=unpublished]
+        % \printbibliography[type=online,heading=subbibliography,title={Onlinequellen}, nottype=unpublished]
+    \printbibliography[nottype=unpublished]
     \end{frame}
 
 \end{document}
