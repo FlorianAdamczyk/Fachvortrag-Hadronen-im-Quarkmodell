@@ -1,0 +1,198 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{Bonn.19.08.2021}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ae22ded3c9e1882aa3e7b7ceef50f624}{%
+           family={Bonn},
+           familyi={B\bibinitperiod},
+           given={University\bibnamedelima Of},
+           giveni={U\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ae22ded3c9e1882aa3e7b7ceef50f624}
+      \strng{fullhash}{ae22ded3c9e1882aa3e7b7ceef50f624}
+      \strng{fullhashraw}{ae22ded3c9e1882aa3e7b7ceef50f624}
+      \strng{bibnamehash}{ae22ded3c9e1882aa3e7b7ceef50f624}
+      \strng{authorbibnamehash}{ae22ded3c9e1882aa3e7b7ceef50f624}
+      \strng{authornamehash}{ae22ded3c9e1882aa3e7b7ceef50f624}
+      \strng{authorfullhash}{ae22ded3c9e1882aa3e7b7ceef50f624}
+      \strng{authorfullhashraw}{ae22ded3c9e1882aa3e7b7ceef50f624}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Evidence of a long-sought effect in CERN data}
+      \field{day}{19}
+      \field{journaltitle}{Lab Manager Magazine}
+      \field{month}{8}
+      \field{title}{Transformation in the Particle Zoo}
+      \field{urlday}{8}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Bonn 19.08.2021 - Transformation in the Particle Zoo:Attachments/Bonn 19.08.2021 - Transformation in the Particle Zoo.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.labmanager.com/transformation-in-the-particle-zoo-26554
+      \endverb
+      \verb{url}
+      \verb https://www.labmanager.com/transformation-in-the-particle-zoo-26554
+      \endverb
+    \endentry
+    \entry{Wikipedia.Hadron}{online}{}{}
+      \name{editor}{1}{}{%
+        {{un=0,uniquepart=base,hash=9c677286866aad38f8e9b660f5411814}{%
+           family={Wikipedia},
+           familyi={W\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhashraw}{9c677286866aad38f8e9b660f5411814}
+      \strng{bibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{editorbibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{editornamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{editorfullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{editorfullhashraw}{9c677286866aad38f8e9b660f5411814}
+      \field{extraname}{1}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In particle physics, a hadron ( ; from Ancient Greek ἁδρός (hadrós) 'stout, thick') is a composite subatomic particle made of two or more quarks held together by the strong interaction. They are analogous to molecules, which are held together by the electric force. Most of the mass of ordinary matter comes from two hadrons: the proton and the neutron, while most of the mass of the protons and neutrons is in turn due to the binding energy of their constituent quarks, due to the strong force. Hadrons are categorized into two broad families: baryons, made of an odd number of quarks (usually three) and mesons, made of an even number of quarks (usually two: one quark and one antiquark). Protons and neutrons (which make the majority of the mass of an atom) are examples of baryons; pions are an example of a meson. A tetraquark state (an exotic meson), named the Z(4430)−, was discovered in 2007 by the Belle Collaboration and confirmed as a resonance in 2014 by the LHCb collaboration. Two pentaquark states (exotic baryons), named P+c(4380) and P+c(4450), were discovered in 2015 by the LHCb collaboration. There are several other {"}Exotic{"} hadron candidates and other colour-singlet quark combinations that may also exist. Almost all {"}free{"} hadrons and antihadrons (meaning, in isolation and not bound within an atomic nucleus) are believed to be unstable and eventually decay into other particles. The only known possible exception is free protons, which appear to be stable, or at least, take immense amounts of time to decay (order of 1034+ years). By way of comparison, free neutrons are the longest-lived unstable particle, and decay with a half-life of about 611 seconds, and have a mean lifetime of 879 seconds, see free neutron decay. Hadron physics is studied by colliding hadrons, e.g. protons, with each other or the nuclei of dense, heavy elements, such as lead (Pb) or gold (Au), and detecting the debris in the produced particle showers. A similar process occurs in the natural environment, in the extreme upper-atmosphere, where muons and mesons such as pions are produced by the collisions of cosmic rays with rarefied gas particles in the outer atmosphere.}
+      \field{note}{Creative Commons Attribution-ShareAlike License Page Version ID: 1261830067}
+      \field{title}{Hadron}
+      \field{urlday}{13}
+      \field{urlmonth}{12}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Hadron:Attachments/Hadron.pdf:application/pdf;Bosons-Hadrons-Fermions-RGB-png2:Attachments/Bosons-Hadrons-Fermions-RGB-png2.png:image/png
+      \endverb
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/w/index.php?title=Hadron&oldid=1261830067
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/w/index.php?title=Hadron&oldid=1261830067
+      \endverb
+    \endentry
+    \entry{Wikipedia.Standardmodell}{online}{}{}
+      \name{editor}{1}{}{%
+        {{un=0,uniquepart=base,hash=9c677286866aad38f8e9b660f5411814}{%
+           family={Wikipedia},
+           familyi={W\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {de}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhashraw}{9c677286866aad38f8e9b660f5411814}
+      \strng{bibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{editorbibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{editornamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{editorfullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{editorfullhashraw}{9c677286866aad38f8e9b660f5411814}
+      \field{extraname}{2}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Das Standardmodell der Elementarteilchenphysik (auch Standardmodell der Teilchenphysik, kurz Standardmodell (SM)) fasst die wesentlichen Erkenntnisse der Teilchenphysik nach heutigem Stand zusammen. Es beschreibt alle bekannten Elementarteilchen und die wichtigen Wechselwirkungen zwischen ihnen: die starke Wechselwirkung, beschrieben durch die Quantenchromodynamik, die schwache Wechselwirkung und die elektromagnetische Wechselwirkung, vereinheitlicht beschrieben durch die Elektroschwache Wechselwirkung. Nur die (vergleichsweise sehr schwache) Gravitation wird nicht berücksichtigt. In theoretischer Hinsicht ist das Standardmodell eine Quantenfeldtheorie. Ihre fundamentalen Objekte sind Felder, die nur in diskreten Paketen verändert werden; die diskreten Pakete entsprechen in einer passenden Darstellung den beobachteten Teilchen. Das Standardmodell ist so gebaut, dass die von ihm beschriebenen Teilchen und Felder die Gesetze der speziellen Relativitätstheorie erfüllen. Gleichzeitig enthält es die Aussagen der Quantenmechanik. Viele Voraussagen des Standardmodells wurden durch Experimente der Teilchenphysik bestätigt. Insbesondere ist die Existenz auch derjenigen Elementarteilchen des Modells nachgewiesen, die erst von der Theorie vorhergesagt wurden. Die gemessenen quantitativen Eigenschaften der Teilchen stimmen sehr gut mit den Vorhersagen des Standardmodells überein. Ein besonders deutliches Beispiel dafür ist der g-Faktor des Elektrons. Es gibt dennoch Gründe für die Annahme, dass das Standardmodell nur ein Aspekt einer noch umfassenderen Theorie ist. Dunkle Materie und Dunkle Energie werden vom Standardmodell nicht beschrieben. Seine Aussagen führen bei hohen Energien, wie sie beim Urknall auftraten, zu Widersprüchen mit der allgemeinen Relativitätstheorie. Außerdem müssen 18 Parameter, deren Werte nicht aus der Theorie hervorgehen, anhand von experimentellen Ergebnissen festgelegt werden. Es wird dadurch recht „biegsam“ und kann sich in einem gewissen Rahmen den tatsächlich gemachten Beobachtungen anpassen. Es gibt auch zahlreiche Bemühungen, das Standardmodell zu erweitern oder abzulösen. Das Standardmodell allein reicht in der Physik für die theoretische Beschreibung in der Praxis meist nicht aus, um die Phänomene zu beschreiben, vielmehr gibt es für jede Größenskala (in Raumzeit und Energie-Impuls, wobei diese aufgrund der Quantenmechanik gekoppelt sind) und für das gerade interessierende physikalische Umfeld eigene sog. effektive Theorien – zum Beispiel bei der Beschreibung von Sternen, Flüssigkeiten, Festkörpern, Atomen, Atomkernen – und für Übergänge zwischen Skalen die Renormierungsgruppe. In der Elementarteilchenphysik wird dieser Übergang zwischen unterschiedlichen Skalen – die auch in der im frühen Universums nach der Urknalltheorie durchlaufen werden – durch Phasenübergänge und „gleitende“ Kopplungskonstanten gekennzeichnet.}
+      \field{note}{Creative Commons Attribution-ShareAlike License Page Version ID: 250545829}
+      \field{title}{Standardmodell}
+      \field{urlday}{13}
+      \field{urlmonth}{12}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Standardmodell:Attachments/Standardmodell.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://de.wikipedia.org/w/index.php?title=Standardmodell&oldid=250545829
+      \endverb
+      \verb{url}
+      \verb https://de.wikipedia.org/w/index.php?title=Standardmodell&oldid=250545829
+      \endverb
+    \endentry
+    \entry{Wikipedia.DeltaBaryon}{online}{}{}
+      \name{editor}{1}{}{%
+        {{un=0,uniquepart=base,hash=9c677286866aad38f8e9b660f5411814}{%
+           family={Wikipedia},
+           familyi={W\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {de}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhashraw}{9c677286866aad38f8e9b660f5411814}
+      \strng{bibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{editorbibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{editornamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{editorfullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{editorfullhashraw}{9c677286866aad38f8e9b660f5411814}
+      \field{extraname}{3}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Die Δ-Baryonen (Delta-Baryonen) oder Delta-Resonanzen sind Baryonen, die aus Up- und Down-Quarks bestehen. Sie besitzen Spin und Isospin 3⁄2. Es gibt vier verschiedene Δ-Baryonen, die meist durch ihre elektrische Ladung gekennzeichnet werden: Δ++, Δ+, Δ0 und Δ−. Δ+ und Δ0 bestehen aus den gleichen Quarks wie die Nukleonen Proton und Neutron und können deshalb als deren Spinanregung aufgefasst werden. Es wurde als erste Pion-Nukleon-Resonanz 1951 am Zyklotron in Chicago von Herbert L. Anderson, Enrico Fermi, E. A. Long und Darrah E. Nagle entdeckt. Beobachtet wurde eine Resonanz bei einer Energie der an Protonen gestreuten Pionen von etwa 180 MeV. Sie wurde von Keith Brueckner mit dem Isospin-Modell von Pionen und Nukleonen erklärt.}
+      \field{note}{Creative Commons Attribution-ShareAlike License Page Version ID: 247028912}
+      \field{title}{Δ-Baryon}
+      \field{urlday}{8}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb -Baryon:Attachments/-Baryon.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://de.wikipedia.org/w/index.php?title=Δ-Baryon&oldid=247028912
+      \endverb
+      \verb{url}
+      \verb https://de.wikipedia.org/w/index.php?title=%CE%94-Baryon&oldid=247028912
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

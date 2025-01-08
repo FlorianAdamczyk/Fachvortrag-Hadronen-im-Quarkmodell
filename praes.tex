@@ -19,6 +19,7 @@
 , sorting=nyt]{biblatex} % For bibliography
 \usepackage{csquotes} % Recommended for biblatex with babel/polyglossia
 \usepackage{textgreek} % Greek letters in text mode (aus references von Citavi)
+\usepackage{tikz}          % For drawing graphics
 
 \usepackage{graphicx}       % For including images
 \usepackage{amsmath, amssymb} % For math symbols
@@ -50,132 +51,134 @@
   
 % Title page settings
 \title{Hadronen im Quarkmodell}
-\subtitle{Eine physikalische Betrachtung}
+\subtitle{Wissenschaftliches Präsentieren}
 \author{Florian Adamczyk}
 \date{\today}
 
 \begin{document}
-    
+
+    % Black slide
+    \begin{frame}[plain, noframenumbering]
+        \begin{tikzpicture}[remember picture, overlay]
+            \fill[black] (current page.south west) rectangle (current page.north east);
+        \end{tikzpicture}
+    \end{frame}
+
+    % Appetizer Slide
+    \begin{frame}[noframenumbering, plain]{Eine Reise in den Zoo der Teilchen}
+        \centering
+        \includegraphics[width=\textwidth, height=0.9\textheight, keepaspectratio]{atom.jpg}
+        \figciteweb{Bonn.19.08.2021}
+        % \vspace{0.5cm}
+        % \begin{quote}
+        %     {Stellen Sie sich vor, das Universum ist ein riesiger Zoo, bevölkert mit einer unglaublichen Vielfalt an exotischen Lebewesen – den Teilchen. Einige sind uns vertraut, wie Elektronen oder Protonen, aber es gibt auch faszinierende, kurzlebige Kreaturen. Eine Gruppe davon sind die Hadronen, die ich euch heute Vorstellen möchte.}
+        % \end{quote}
+    \end{frame}
+
     % Title Slide
-    \begin{frame}
+    \begin{frame}[noframenumbering, plain]
         \vspace*{-0.6cm}
         \titlepage
         \vspace*{-1.6cm}
     \end{frame}
     
     % Table of Contents
-    \begin{frame}{Inhaltsverzeichnis}
+    \begin{frame}{Gliederung}
+      \setcounter{page}{1}
         \tableofcontents
     \end{frame}
     
-    % Section: Einführung
     \section{Einführung}
-    \begin{frame}{Einführung}
-        \begin{block}{Ziel der Präsentation}
-            \begin{itemize}
-                \item Vorstellung der Grundlagen des Quarkmodells
-                \item Beschreibung der Hadronenstruktur
-                \item Diskussion aktueller Herausforderungen
-            \end{itemize}
-        \end{block}
-        \begin{figure}
-            \centering
-            \includegraphics[width=0.6\linewidth]{Bosons-Hadrons-Fermions-RGB-png2.png}
-            \figciteweb{Wikipedia.Standardmodell}
-        \end{figure}
-    \end{frame}
-    
-    % Section: Theoretische Grundlagen
-    \section{Theoretische Grundlagen}
-    \begin{frame}{Quarkmodell: Ein Überblick}
-        \begin{itemize}
-            \item Quarks als fundamentale Bausteine
-            \item Drei Farbladungen: Rot, Grün, Blau
-            \item Austausch von Gluonen $\Rightarrow$ starke Wechselwirkung
-        \end{itemize}
-        \begin{equation*}
-            F = \frac{Gm_1m_2}{r^2} % Beispiel für eine Formel
-        \end{equation*}
-    \end{frame}
-    
-    \begin{frame}{Hadronenklassen}
-        \begin{block}{Baryonen}
-            \begin{itemize}
-                \item Drei Quarks
-                \item Beispiele: Proton, Neutron
-            \end{itemize}
-        \end{block}
-        \begin{block}{Mesonen}
-            \begin{itemize}
-                \item Ein Quark und ein Antiquark
-                \item Beispiele: Pionen, Kaonen
-            \end{itemize}
-        \end{block}
-    \end{frame}
-    
-    % Section: Experimentelle Beobachtungen
-    \section{Experimentelle Beobachtungen}
-    \begin{frame}{Nachweis von Quarks}
-        \begin{figure}
-            \centering
-            \includegraphics[width=\linewidth, height=0.5\textheight, keepaspectratio]{lhcb-pc4450.png}
-            \figcite{Aaij.2019}
-            %\caption{Streuexperiment zur Quarkstruktur, Quelle: \cite{Aaij.2019}}
-            %\footnote{\citeauthortitle{Aaij.2019}}
-            %\footcite{Aaij.2019}
-        \end{figure}
-        \begin{itemize}
-            \item Streuexperimente als zentrale Methode
-            \item Nachweis von Quark-Ladungen
-        \end{itemize}
+    \begin{frame}{Das Standardmodell der Elementarteilchen}
+      \begin{figure}
+        \centering
+        \begin{minipage}{0.6\textwidth}
+          \centering
+          \includegraphics[width=\textwidth, keepaspectratio, height=0.9\textheight]{502px-Standard_Model_of_Elementary_Particles-de.svg.png}
+        \end{minipage}
+        \hfill
+        \begin{minipage}{0.38\textwidth}
+          \scriptsize
+          \citeauthortitle[Von MissMJ \& Cush / abgeleitetes Werk: Polluks - Standard Model of Elementary Particles.svg, Gemeinfrei, \url{https://commons.wikimedia.org/w/index.php?curid=11307906} \\aus: ][]{Wikipedia.Standardmodell}
+        \end{minipage}
+      \end{figure}
     \end{frame}
 
-    \subsection{Pentaquarks}
-    \begin{frame}{Pentaquarks}
-        \begin{figure}
-            \centering
-            \includegraphics[width=0.6\linewidth]{Bosons-Hadrons-Fermions-RGB-png2.png}
-            \figciteweb{Wikipedia.Hadron}
-        \end{figure}
-        \begin{itemize}
-            \item Fünf Quarks in gebundener Struktur
-            \item Experimentelle Hinweise seit 2015
-        \end{itemize}
+    \begin{frame}{Hadronen: Aufbau und Klassifizierung}
+      \begin{itemize}
+        \item Baryonen (drei Quarks: Proton, Neutron, etc.)
+        \item Mesonen (Quark-Antiquark-Paare, z.B. Pion, Kaon, etc.)
+        \item Zusammengesetzt aus Quarks, die durch die starke Wechselwirkung gebunden sind
+        \item Unterliegen den Quantenzahlen (Isospin, Strangeness, etc.)
+      \end{itemize}
+      \includegraphics[width=\textwidth, height=0.4\textheight, keepaspectratio]{Bosons-Hadrons-Fermions-RGB-png2.png}
+      \figciteweb{Wikipedia.Hadron}
     \end{frame}
 
-
-    
-    % New Slide with Citations
-    \begin{frame}{Wichtige Quellen}
-        \begin{itemize}
-          \item Test
-            \item Die Grundlagen des Quarkmodells wurden von Gell-Mann (1964) und Zweig (1964a, 1964b) entwickelt~\cite{GellMann.1964, Zweig.1964, Zweig.1964b}.
-            \item Amsler et al. (2017) bieten eine umfassende Übersicht über das Quarkmodell~\cite{C.Amsler.2017}.
-            \item Die Entdeckung von Pentaquark-Zuständen wurde von Aaij et al. (2015, 2019) berichtet~\cite{Aaij.2019}.
-            \item Wikipedia bietet zugängliche Erklärungen zu Hadronen und dem Standardmodell~\cite{Wikipedia.Hadron, Wikipedia.Standardmodell}.
-        \end{itemize}
+    % \subsection{SU\(_3\) Dekuplett}
+    \begin{frame}%{Das SU\(_3\) Dekuplett}
+      \begin{figure}
+        \centering
+        \begin{minipage}{0.6\textwidth}
+          \centering
+          \includegraphics[width=\textwidth, keepaspectratio, height=0.9\textheight]{538px-Baryon-decuplet-small.svg.png}
+        \end{minipage}
+        \hfill
+        \begin{minipage}{0.38\textwidth}
+          \begin{itemize}
+            \item $I_3$: Isospin
+            \item $S$: Strangeness
+            \item $Q$: Hyperladung
+          \end{itemize}
+          \vspace*{0,5cm}
+          \normalsize{\textbf{{$\rightarrow$ Einführung der \emph{Farbladung}}}}\vspace*{1cm}
+          
+          \scriptsize % hier muss ich am Layout weiterarbeiten
+          \citeauthortitle[Von Trassiorf - Eigenes Werk, Gemeinfrei, \url{https://commons.wikimedia.org/w/index.php?curid=3245752} \\aus: ][]{Wikipedia.DeltaBaryon} 
+        \end{minipage}
+      \end{figure} % hier ist was mit der Überschrift falsch!!
     \end{frame}
     
-    % Section: Zusammenfassung
-    \section{Zusammenfassung}
-    \begin{frame}{Schlussfolgerungen}
-        \begin{itemize}
-            \item Hadronen sind komplexe Strukturen aus Quarks
-            \item Fortschritte in der Theorie und Experimente erforderlich
-            \item Bedeutung des Quarkmodells für die moderne Physik
-        \end{itemize}
+    
+    
+    \begin{frame}{Exotische Hadronen: Pentaquarks \& Co}
+      \begin{itemize}
+        \item Pentaquarks (fünf Quarks)
+        \item Tetraquarks (vier Quarks)
+        \item Neue Entdeckungen, z.B. LHCb-Resultate
+      \end{itemize}
     \end{frame}
     
-    % Thank You Slide
-    \begin{frame}{Vielen Dank!}
-        \begin{center}
-            \Huge Fragen?
-        \end{center}
+    \section{Aktuelle Forschung \& Anwendungen}
+    \begin{frame}{Moderne Experimente \& offene Fragen}
+      \begin{itemize}
+        \item LHC-Experimente (ATLAS, CMS, LHCb)
+        \item Stabilität von Protonen, Neutronen
+        \item Bedeutung für Kosmologie und Teilchenphysik
+      \end{itemize}
+    \end{frame}
+    
+    \begin{frame}{Schluss \& Ausblick}
+      \begin{itemize}
+        \item Zusammenfassung der wichtigsten Punkte
+        \item Ausblick auf weitere Forschungsrichtungen
+      \end{itemize}
+      
+      \centering
+      \alert{Vielen Dank für Ihre Aufmerksamkeit!}
     \end{frame}
 
     % Bibliography    
     \begin{frame}[allowframebreaks, noframenumbering, plain]{Literaturverzeichnis}
-   \printbibliography[nottype=unpublished]
+   \printbibliography%[nottype=unpublished]
+    \end{frame}
+
+    % Black slide
+    \begin{frame}[plain, noframenumbering]
+        \begin{tikzpicture}[remember picture, overlay]
+            \fill[black] (current page.south west) rectangle (current page.north east);
+        \end{tikzpicture}
+        Test~\cite{Aaij.2015,Aaij.2019,C.Amsler.2017,GellMann.1964,Zweig.1964,Zweig.1964b}
     \end{frame}
 
 \end{document}
