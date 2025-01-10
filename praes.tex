@@ -24,6 +24,9 @@
 \usepackage{graphicx}       % For including images
 \usepackage{amsmath, amssymb} % For math symbols
 
+\usepackage[labelformat=empty]{caption}
+
+
 % Bibliography settings
 \addbibresource{references.bib} % Path to the bibliography file
 
@@ -32,8 +35,19 @@
   {\usebibmacro{prenote}}
   {\usebibmacro{citeindex}%
    \printnames{labelname}%
-   \setunit{\space\textendash\space}% <- Hier wird das Trennzeichen ":" hinzugefügt
+   \setunit{\space\textendash\space}
    \printfield{title}}
+  {\multicitedelim}
+  {\usebibmacro{postnote}}
+
+  \DeclareCiteCommand{\citeauthortitleurl}
+  {\usebibmacro{prenote}}
+  {\usebibmacro{citeindex}%
+   \printnames{labelname}%
+   \setunit{\space\textendash\space}
+   \printfield{title}%
+   \setunit{\addsemicolon\space}
+   \printfield{url}}
   {\multicitedelim}
   {\usebibmacro{postnote}}
 
@@ -46,8 +60,13 @@
   {\multicitedelim}
   {\usebibmacro{postnote}}
 
-\newcommand{\figcite}[1]{\\[-3mm]{\scriptsize Quelle: \cite{#1}}}
-\newcommand{\figciteweb}[1]{\\[-3mm]{\scriptsize Quelle: \citeauthortitle{#1}}}
+\makeatletter
+\renewcommand\footnotesize{\tiny}
+\makeatother
+
+\newcommand{\figcite}[1]{\\[-3mm]{\tiny Quelle: \cite{#1}}}
+\newcommand{\figciteweb}[1]{\\[-3mm]{\tiny aus: \citeauthortitle{#1}}}
+\newcommand{\figciteweburl}[1]{\\[-3mm]{\tiny aus: \citeauthortitleurl{#1}}}
   
 % Title page settings
 \title{Hadronen im Quarkmodell}
@@ -68,10 +87,10 @@
     \begin{frame}[noframenumbering, plain]{Eine Reise in den Zoo der Teilchen}
         \centering
         \includegraphics[width=\textwidth, height=0.9\textheight, keepaspectratio]{atom.jpg}
-        \figciteweb{Bonn.19.08.2021}
+        \figciteweburl{Bonn.19.08.2021}
         % \vspace{0.5cm}
         % \begin{quote}
-        %     {Stellen Sie sich vor, das Universum ist ein riesiger Zoo, bevölkert mit einer unglaublichen Vielfalt an exotischen Lebewesen – den Teilchen. Einige sind uns vertraut, wie Elektronen oder Protonen, aber es gibt auch faszinierende, kurzlebige Kreaturen. Eine Gruppe davon sind die Hadronen, die ich euch heute Vorstellen möchte.}
+%{Stellen Sie sich vor, das Universum ist ein riesiger Zoo, bevölkert mit einer unglaublichen Vielfalt an exotischen Lebewesen – den Teilchen. Einige sind uns vertraut, wie Elektronen oder Protonen, aber es gibt auch faszinierende, kurzlebige Kreaturen. Eine Gruppe davon sind die Hadronen, die ich euch heute Vorstellen möchte.}
         % \end{quote}
     \end{frame}
 
@@ -92,81 +111,102 @@
     \begin{frame}{Das Standardmodell der Elementarteilchen}
       \begin{figure}
         \centering
-        \begin{minipage}{0.6\textwidth}
+        \begin{minipage}{0.5\textwidth}
           \centering
-          \includegraphics[width=\textwidth, keepaspectratio, height=0.9\textheight]{502px-Standard_Model_of_Elementary_Particles-de.svg.png}
-        \end{minipage}
+          \includegraphics[width=\textwidth, keepaspectratio, height=0.85\textheight]{502px-Standard_Model_of_Elementary_Particles-de.svg.png}
+          \figciteweb{Wikipedia.Standardmodell}, \tiny \citeurl{Wikipedia.Standardmodell} \end{minipage}
         \hfill
-        \begin{minipage}{0.38\textwidth}
-          \scriptsize
-          \citeauthortitle[Von MissMJ \& Cush / abgeleitetes Werk: Polluks - Standard Model of Elementary Particles.svg, Gemeinfrei, \url{https://commons.wikimedia.org/w/index.php?curid=11307906} \\aus: ][]{Wikipedia.Standardmodell}
-        \end{minipage}
+        \begin{minipage}{0.48\textwidth}
+          \begin{itemize}
+            \item Beschreibt Elementarteilchen \& Wechselwirkungen
+            \item Fermionen (Quarks, Leptonen) \& Bosonen (Vektorbosonen, Higgs-Boson)
+            \item Starke, schwache \& elektromagnetische Wechselwirkung
+          \end{itemize}
+          \end{minipage}
       \end{figure}
     \end{frame}
 
+    \section{Hadronen}
     \begin{frame}{Hadronen: Aufbau und Klassifizierung}
       \begin{itemize}
-        \item Baryonen (drei Quarks: Proton, Neutron, etc.)
-        \item Mesonen (Quark-Antiquark-Paare, z.B. Pion, Kaon, etc.)
-        \item Zusammengesetzt aus Quarks, die durch die starke Wechselwirkung gebunden sind
-        \item Unterliegen den Quantenzahlen (Isospin, Strangeness, etc.)
+        \item Baryonen (drei Quarks: Proton, Neutron, \dots)
+        \item Mesonen ($q\bar{q}$, z.B. Pion, Kaon, \dots)
+        \item Zusammengesetzt aus Quarks (durch starke WW gebunden)
+        \item Unterliegen Quantenzahlen (Isospin, Strangeness, \dots)
       \end{itemize}
       \includegraphics[width=\textwidth, height=0.4\textheight, keepaspectratio]{Bosons-Hadrons-Fermions-RGB-png2.png}
-      \figciteweb{Wikipedia.Hadron}
+      \figciteweburl{Wikipedia.Hadron}
     \end{frame}
 
-    % \subsection{SU\(_3\) Dekuplett}
-    \begin{frame}%{Das SU\(_3\) Dekuplett}
-      \begin{figure}
-        \centering
+    \subsection{Das SU\(_3\) Dekuplett}
+    \begin{frame}{Das SU\(_3\) Dekuplett}
         \begin{minipage}{0.6\textwidth}
-          \centering
-          \includegraphics[width=\textwidth, keepaspectratio, height=0.9\textheight]{538px-Baryon-decuplet-small.svg.png}
+          \begin{figure}
+            \centering
+          \includegraphics[width=\linewidth, keepaspectratio, height=0.8\textheight]{538px-Baryon-decuplet-small.svg.png}
+          \tiny \\\citeauthortitle{Wikipedia.DeltaBaryon}, \citeurl{Wikipedia.DeltaBaryon}
+      \end{figure}
         \end{minipage}
         \hfill
         \begin{minipage}{0.38\textwidth}
           \begin{itemize}
-            \item $I_3$: Isospin
-            \item $S$: Strangeness
-            \item $Q$: Hyperladung
+            \item I$_3$: Isospin
+            \item S: Strangeness
+            \item Q: Hyperladung % Grundzustand, parallele Spins und selben Falvour: Pauli Prinzip!!
           \end{itemize}
           \vspace*{0,5cm}
+          \hfill
           \normalsize{\textbf{{$\rightarrow$ Einführung der \emph{Farbladung}}}}\vspace*{1cm}
-          
-          \scriptsize % hier muss ich am Layout weiterarbeiten
-          \citeauthortitle[Von Trassiorf - Eigenes Werk, Gemeinfrei, \url{https://commons.wikimedia.org/w/index.php?curid=3245752} \\aus: ][]{Wikipedia.DeltaBaryon} 
         \end{minipage}
-      \end{figure} % hier ist was mit der Überschrift falsch!!
     \end{frame}
     
+    \begin{frame}{Erweiterung des SU\(_3\) Dekupletts}
+      \begin{minipage}{0.6\textwidth}
+      \begin{figure}
+        \centering
+        \includegraphics[width=\linewidth, height=0.7\textheight, keepaspectratio]{Images/594e59cc-d7ab-4a37-ad49-f782ae1831bc.jpg}
+        \caption{Das 20-Plet mit einem SU$_3$ Dekuplett.\\\scriptsize\parencite{C.Amsler.2017}}
+        \end{figure}
+      \end{minipage}
+      \hfill
+      \begin{minipage}{0.38\textwidth}
+        \begin{itemize}
+          \item Erweiterung des SU$_3$ Dekupletts
+          \item weitere Dimension: Charm
+          \item Neue, schwere Hadronen
+        \end{itemize}
+      \end{minipage}
+    \end{frame}
+
+    \begin{frame}{Gell-Mann: Zusammensetzung der Hadronen}
+      \begin{figure}\includegraphics[height=0.85\textheight, width=\textwidth, keepaspectratio]{Images/8ad56d13-e301-4a37-be9c-7077ac16ce16.jpg}\\\small\cite[S.~214]{GellMann.1964}\end{figure}
+        \end{frame}
+
     
-    
+
+    \subsection{Exotische Hadronen}
     \begin{frame}{Exotische Hadronen: Pentaquarks \& Co}
       \begin{itemize}
         \item Pentaquarks (fünf Quarks)
-        \item Tetraquarks (vier Quarks)
         \item Neue Entdeckungen, z.B. LHCb-Resultate
+        \item Neue Forschung von \cite{Aaij.2015,Aaij.2019} zu Pentaquarks. \emph{(noch zu tun!)}
       \end{itemize}
     \end{frame}
     
-    \section{Aktuelle Forschung \& Anwendungen}
-    \begin{frame}{Moderne Experimente \& offene Fragen}
-      \begin{itemize}
-        \item LHC-Experimente (ATLAS, CMS, LHCb)
-        \item Stabilität von Protonen, Neutronen
-        \item Bedeutung für Kosmologie und Teilchenphysik
-      \end{itemize}
-    \end{frame}
-    
+    \section{Schluss \& Ausblick}
     \begin{frame}{Schluss \& Ausblick}
       \begin{itemize}
         \item Zusammenfassung der wichtigsten Punkte
-        \item Ausblick auf weitere Forschungsrichtungen
+        \item Ausblick auf weitere Forschungsrichtungen?
       \end{itemize}
-      
-      \centering
-      \alert{Vielen Dank für Ihre Aufmerksamkeit!}
     \end{frame}
+
+    % Thank You Slide
+    \begin{frame}
+      \begin{center}
+          \Huge Vielen Dank!
+      \end{center}
+  \end{frame}
 
     % Bibliography    
     \begin{frame}[allowframebreaks, noframenumbering, plain]{Literaturverzeichnis}
