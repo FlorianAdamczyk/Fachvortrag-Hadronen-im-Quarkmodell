@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1390 1330">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Unbenannter_Verlauf_34);
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-3, .cls-9, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8 {
+        stroke: #3d8c1b;
+      }
+
+      .cls-10 {
+        fill: url(#Unbenannter_Verlauf_20);
+      }
+
+      .cls-11 {
+        stroke: url(#Unbenannter_Verlauf_19);
+      }
+
+      .cls-11, .cls-12, .cls-13, .cls-14, .cls-9, .cls-15, .cls-16, .cls-17, .cls-18, .cls-19, .cls-20, .cls-21, .cls-22 {
+        fill: none;
+        stroke-width: 10px;
+      }
+
+      .cls-23, .cls-24, .cls-25, .cls-26, .cls-27, .cls-28, .cls-29, .cls-30, .cls-31, .cls-32, .cls-33, .cls-34, .cls-35, .cls-36, .cls-37, .cls-38, .cls-39, .cls-6, .cls-40, .cls-41, .cls-42, .cls-43 {
+        isolation: isolate;
+      }
+
+      .cls-23, .cls-25, .cls-28, .cls-29, .cls-30, .cls-31, .cls-32, .cls-34, .cls-36, .cls-39, .cls-40 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .cls-23, .cls-25, .cls-32 {
+        font-size: 36px;
+      }
+
+      .cls-23, .cls-30 {
+        fill: #7ad;
+      }
+
+      .cls-24 {
+        fill: #cdf;
+        opacity: .5;
+      }
+
+      .cls-44 {
+        fill: url(#Unbenannter_Verlauf_46);
+      }
+
+      .cls-12 {
+        stroke: url(#Unbenannter_Verlauf_11);
+      }
+
+      .cls-45 {
+        fill: url(#Unbenannter_Verlauf_44);
+      }
+
+      .cls-13 {
+        stroke: url(#Unbenannter_Verlauf_37);
+      }
+
+      .cls-25, .cls-34 {
+        fill: #ff6c6c;
+      }
+
+      .cls-46 {
+        fill: url(#Unbenannter_Verlauf_36);
+      }
+
+      .cls-26, .cls-33 {
+        fill: #1a1a1a;
+      }
+
+      .cls-26, .cls-33, .cls-41 {
+        font-size: 24px;
+      }
+
+      .cls-27, .cls-29 {
+        font-size: 64px;
+      }
+
+      .cls-27, .cls-33, .cls-47, .cls-41, .cls-42 {
+        font-family: ArialMT, Arial;
+      }
+
+      .cls-48 {
+        fill: url(#Unbenannter_Verlauf_42);
+      }
+
+      .cls-28 {
+        font-size: 30px;
+      }
+
+      .cls-14 {
+        stroke: url(#Unbenannter_Verlauf_41);
+      }
+
+      .cls-30, .cls-31, .cls-34, .cls-39, .cls-40 {
+        font-size: 54px;
+      }
+
+      .cls-49 {
+        opacity: .6;
+      }
+
+      .cls-50 {
+        fill: url(#Unbenannter_Verlauf_12);
+      }
+
+      .cls-51 {
+        fill: url(#Unbenannter_Verlauf_40);
+      }
+
+      .cls-2 {
+        fill: #e6cc01;
+        fill-opacity: 0;
+        stroke: #722;
+        stroke-opacity: .2;
+      }
+
+      .cls-31 {
+        fill: #eb3;
+      }
+
+      .cls-3 {
+        fill: url(#Unbenannter_Verlauf_32);
+      }
+
+      .cls-32, .cls-36 {
+        fill: #012;
+      }
+
+      .cls-15 {
+        stroke: url(#Unbenannter_Verlauf_15);
+      }
+
+      .cls-16 {
+        stroke: url(#Unbenannter_Verlauf_13);
+      }
+
+      .cls-35 {
+        font-size: 72px;
+      }
+
+      .cls-35, .cls-43 {
+        font-family: TimesNewRomanPSMT, 'Times New Roman';
+      }
+
+      .cls-17 {
+        stroke: url(#Unbenannter_Verlauf_43);
+      }
+
+      .cls-36 {
+        font-size: 42px;
+      }
+
+      .cls-4 {
+        fill: url(#Unbenannter_Verlauf_26);
+      }
+
+      .cls-18 {
+        stroke: url(#Unbenannter_Verlauf_45);
+      }
+
+      .cls-38, .cls-6 {
+        fill: #fff;
+        opacity: .2;
+      }
+
+      .cls-5 {
+        fill: url(#Unbenannter_Verlauf_24);
+      }
+
+      .cls-19 {
+        stroke: url(#Unbenannter_Verlauf_35);
+      }
+
+      .cls-20 {
+        stroke: url(#Unbenannter_Verlauf_39);
+      }
+
+      .cls-21 {
+        stroke: url(#Unbenannter_Verlauf_21);
+      }
+
+      .cls-52 {
+        fill: url(#Unbenannter_Verlauf_22);
+      }
+
+      .cls-53 {
+        fill: url(#Unbenannter_Verlauf_14);
+      }
+
+      .cls-54 {
+        display: none;
+      }
+
+      .cls-39 {
+        fill: #3d8c1b;
+      }
+
+      .cls-55 {
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+      }
+
+      .cls-40 {
+        fill: #c9f;
+      }
+
+      .cls-7 {
+        fill: url(#Unbenannter_Verlauf_28);
+      }
+
+      .cls-8 {
+        fill: url(#Unbenannter_Verlauf_30);
+      }
+
+      .cls-56 {
+        fill: url(#Unbenannter_Verlauf_38);
+      }
+
+      .cls-42 {
+        fill: #123;
+        font-size: 40px;
+      }
+
+      .cls-22 {
+        stroke: url(#Unbenannter_Verlauf_17);
+      }
+
+      .cls-57 {
+        fill: url(#Unbenannter_Verlauf_18);
+      }
+
+      .cls-43 {
+        font-size: 48px;
+      }
+
+      .cls-58 {
+        fill: url(#Unbenannter_Verlauf_16);
+      }
+    </style>
+    <linearGradient id="Unbenannter_Verlauf_11" data-name="Unbenannter Verlauf 11" x1="42" y1="1343.3" x2="197" y2="1078.3" gradientTransform="translate(100 1605) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ebf"/>
+      <stop offset="1" stop-color="#a7d"/>
+    </linearGradient>
+    <linearGradient id="Unbenannter_Verlauf_12" data-name="Unbenannter Verlauf 12" x1="102.9" y1="1260.4" x2="147.9" y2="1180.4" gradientTransform="translate(100 1605) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ebf"/>
+      <stop offset="1" stop-color="#a7d"/>
+    </linearGradient>
+    <linearGradient id="Unbenannter_Verlauf_13" data-name="Unbenannter Verlauf 13" x1="42" y1="1343.3" x2="197" y2="1078.3" gradientTransform="translate(100 1855) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ebf"/>
+      <stop offset="1" stop-color="#a7d"/>
+    </linearGradient>
+    <linearGradient id="Unbenannter_Verlauf_14" data-name="Unbenannter Verlauf 14" x1="102.9" y1="1260.4" x2="147.9" y2="1180.4" gradientTransform="translate(100 1855) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ebf"/>
+      <stop offset="1" stop-color="#a7d"/>
+    </linearGradient>
+    <linearGradient id="Unbenannter_Verlauf_15" data-name="Unbenannter Verlauf 15" x1="42" y1="1343.3" x2="197" y2="1078.3" gradientTransform="translate(350 1605) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ebf"/>
+      <stop offset="1" stop-color="#a7d"/>
+    </linearGradient>
+    <linearGradient id="Unbenannter_Verlauf_16" data-name="Unbenannter Verlauf 16" x1="102.9" y1="1260.4" x2="147.9" y2="1180.4" gradientTransform="translate(350 1605) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ebf"/>
+      <stop offset="1" stop-color="#a7d"/>
+    </linearGradient>
+    <linearGradient id="Unbenannter_Verlauf_17" data-name="Unbenannter Verlauf 17" x1="42" y1="1343.3" x2="197" y2="1078.3" gradientTransform="translate(350 1855) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ebf"/>
+      <stop offset="1" stop-color="#a7d"/>
+    </linearGradient>
+    <linearGradient id="Unbenannter_Verlauf_18" data-name="Unbenannter Verlauf 18" x1="102.9" y1="1260.4" x2="147.9" y2="1180.4" gradientTransform="translate(350 1855) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ebf"/>
+      <stop offset="1" stop-color="#a7d"/>
+    </linearGradient>
+    <linearGradient id="Unbenannter_Verlauf_19" data-name="Unbenannter Verlauf 19" x1="42" y1="1343.3" x2="197" y2="1078.3" gradientTransform="translate(600 1605) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ebf"/>
+      <stop offset="1" stop-color="#a7d"/>
+    </linearGradient>
+    <linearGradient id="Unbenannter_Verlauf_20" data-name="Unbenannter Verlauf 20" x1="102.9" y1="1260.4" x2="147.9" y2="1180.4" gradientTransform="translate(600 1605) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ebf"/>
+      <stop offset="1" stop-color="#a7d"/>
+    </linearGradient>
+    <linearGradient id="Unbenannter_Verlauf_21" data-name="Unbenannter Verlauf 21" x1="42" y1="1343.3" x2="197" y2="1078.3" gradientTransform="translate(600 1855) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ebf"/>
+      <stop offset="1" stop-color="#a7d"/>
+    </linearGradient>
+    <linearGradient id="Unbenannter_Verlauf_22" data-name="Unbenannter Verlauf 22" x1="102.9" y1="1260.4" x2="147.9" y2="1180.4" gradientTransform="translate(600 1855) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ebf"/>
+      <stop offset="1" stop-color="#a7d"/>
+    </linearGradient>
+    <linearGradient id="Unbenannter_Verlauf_24" data-name="Unbenannter Verlauf 24" x1="102.9" y1="1260.4" x2="147.9" y2="1180.4" gradientTransform="translate(100 2120) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ae7"/>
+      <stop offset="1" stop-color="#6c3"/>
+    </linearGradient>
+    <linearGradient id="Unbenannter_Verlauf_26" data-name="Unbenannter Verlauf 26" x1="102.9" y1="1260.4" x2="147.9" y2="1180.4" gradientTransform="translate(100 2370) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ae7"/>
+      <stop offset="1" stop-color="#6c3"/>
+    </linearGradient>
+    <linearGradient id="Unbenannter_Verlauf_28" data-name="Unbenannter Verlauf 28" x1="102.9" y1="1260.4" x2="147.9" y2="1180.4" gradientTransform="translate(350 2120) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ae7"/>
+      <stop offset="1" stop-color="#6c3"/>
+    </linearGradient>
+    <linearGradient id="Unbenannter_Verlauf_30" data-name="Unbenannter Verlauf 30" x1="102.9" y1="1260.4" x2="147.9" y2="1180.4" gradientTransform="translate(350 2370) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ae7"/>
+      <stop offset="1" stop-color="#6c3"/>
+    </linearGradient>
+    <linearGradient id="Unbenannter_Verlauf_32" data-name="Unbenannter Verlauf 32" x1="102.9" y1="1260.4" x2="147.9" y2="1180.4" gradientTransform="translate(600 2120) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ae7"/>
+      <stop offset="1" stop-color="#6c3"/>
+    </linearGradient>
+    <linearGradient id="Unbenannter_Verlauf_34" data-name="Unbenannter Verlauf 34" x1="102.9" y1="1260.4" x2="147.9" y2="1180.4" gradientTransform="translate(600 2370) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ae7"/>
+      <stop offset="1" stop-color="#6c3"/>
+    </linearGradient>
+    <linearGradient id="Unbenannter_Verlauf_35" data-name="Unbenannter Verlauf 35" x1="42" y1="1343.3" x2="197" y2="1078.3" gradientTransform="translate(860 1605) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f97"/>
+      <stop offset="1" stop-color="#d54"/>
+    </linearGradient>
+    <linearGradient id="Unbenannter_Verlauf_36" data-name="Unbenannter Verlauf 36" x1="102.9" y1="1260.4" x2="147.9" y2="1180.4" gradientTransform="translate(860 1605) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f97"/>
+      <stop offset="1" stop-color="#d54"/>
+    </linearGradient>
+    <linearGradient id="Unbenannter_Verlauf_37" data-name="Unbenannter Verlauf 37" x1="42" y1="1343.3" x2="197" y2="1078.3" gradientTransform="translate(860 1855) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f97"/>
+      <stop offset="1" stop-color="#d54"/>
+    </linearGradient>
+    <linearGradient id="Unbenannter_Verlauf_38" data-name="Unbenannter Verlauf 38" x1="102.9" y1="1260.4" x2="147.9" y2="1180.4" gradientTransform="translate(860 1855) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f97"/>
+      <stop offset="1" stop-color="#d54"/>
+    </linearGradient>
+    <linearGradient id="Unbenannter_Verlauf_39" data-name="Unbenannter Verlauf 39" x1="42" y1="1343.3" x2="197" y2="1078.3" gradientTransform="translate(860 2120) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f97"/>
+      <stop offset="1" stop-color="#d54"/>
+    </linearGradient>
+    <linearGradient id="Unbenannter_Verlauf_40" data-name="Unbenannter Verlauf 40" x1="102.9" y1="1260.4" x2="147.9" y2="1180.4" gradientTransform="translate(860 2120) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f97"/>
+      <stop offset="1" stop-color="#d54"/>
+    </linearGradient>
+    <linearGradient id="Unbenannter_Verlauf_41" data-name="Unbenannter Verlauf 41" x1="42" y1="1343.3" x2="197" y2="1078.3" gradientTransform="translate(860 2370) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f97"/>
+      <stop offset="1" stop-color="#d54"/>
+    </linearGradient>
+    <linearGradient id="Unbenannter_Verlauf_42" data-name="Unbenannter Verlauf 42" x1="102.9" y1="1260.4" x2="147.9" y2="1180.4" gradientTransform="translate(860 2370) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f97"/>
+      <stop offset="1" stop-color="#d54"/>
+    </linearGradient>
+    <linearGradient id="Unbenannter_Verlauf_43" data-name="Unbenannter Verlauf 43" x1="42" y1="1343.3" x2="197" y2="1078.3" gradientTransform="translate(1120 1605) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#eee677"/>
+      <stop offset="1" stop-color="#eb3"/>
+    </linearGradient>
+    <linearGradient id="Unbenannter_Verlauf_44" data-name="Unbenannter Verlauf 44" x1="102.9" y1="1260.4" x2="147.9" y2="1180.4" gradientTransform="translate(1120 1605) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#eee677"/>
+      <stop offset="1" stop-color="#eb3"/>
+    </linearGradient>
+    <linearGradient id="Unbenannter_Verlauf_45" data-name="Unbenannter Verlauf 45" x1="42" y1="1343.3" x2="197" y2="1078.3" gradientTransform="translate(1380 1605) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9cf"/>
+      <stop offset="1" stop-color="#69c"/>
+    </linearGradient>
+    <linearGradient id="Unbenannter_Verlauf_46" data-name="Unbenannter Verlauf 46" x1="102.9" y1="1260.4" x2="147.9" y2="1180.4" gradientTransform="translate(1380 1605) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9cf"/>
+      <stop offset="1" stop-color="#69c"/>
+    </linearGradient>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.7.1, SVG Export Plug-In . SVG Version: 1.2.0 Build 142)  -->
+  <g>
+    <g id="Ebene_1">
+      <text class="cls-29" transform="translate(110 95)"><tspan x="0" y="0">Standardmodell der Elementarteilchen</tspan></text>
+      <g>
+        <path id="fstrong" class="cls-2" d="M220.8,322.6c-30.4,0-55,24.6-55,55v250c0,30.4,24.6,55,55,55h500c30.4,0,55-24.6,55-55,0-107.7,87.3-195,195-195h10c30.4,0,55-24.6,55-55s-24.6-55-55-55H220.8"/>
+        <path id="felecmag" class="cls-2" d="M220.8,312.6c-35.9,0-65,29.1-65,65v510c0,35.9,29.1,65,65,65h500c35.9,0,65-29.1,65-65,0-107.7,82.8-195,185-195h10c35.9,0,65-29.1,65-65s-29.1-65-65-65h-10c-102.2,0-185-82.8-185-185s-29.1-65-65-65H220.8"/>
+        <path id="fweak" class="cls-2" d="M220.8,302.6c-41.4,0-75,33.6-75,75v760c0,41.4,33.6,75,75,75h760c41.4,0,75-33.6,75-75v-250c0-41.4-33.6-75-75-75h-10c-96.6,0-175-78.4-175-175v-260c0-41.4-33.6-75-75-75H220.8"/>
+      </g>
+      <g>
+        <rect class="cls-24" x="100" y="137.6" width="740" height="80" rx="30" ry="30"/>
+        <g class="cls-37">
+          <text class="cls-28" transform="translate(255.8 166)"><tspan x="0" y="0">Drei Generationen der Materie</tspan></text>
+          <text class="cls-28" transform="translate(383.3 202)"><tspan x="0" y="0">(Fermionen)</tspan></text>
+        </g>
+        <g>
+          <text class="cls-42" transform="translate(214.4 255)"><tspan x="0" y="0">I</tspan></text>
+          <text class="cls-42" transform="translate(458.9 255)"><tspan x="0" y="0">II</tspan></text>
+          <text class="cls-42" transform="translate(703.3 255)"><tspan x="0" y="0">III</tspan></text>
+        </g>
+      </g>
+      <g>
+        <rect class="cls-24" x="860" y="137.6" width="500" height="80" rx="30" ry="30"/>
+        <g class="cls-37">
+          <text class="cls-28" transform="translate(974.4 166)"><tspan x="0" y="0">Wechselwirkungen</tspan></text>
+          <text class="cls-28" transform="translate(1035.8 202)"><tspan x="0" y="0">(Bosonen)</tspan></text>
+        </g>
+      </g>
+      <g class="cls-49">
+        <text class="cls-41" transform="translate(14.3 315)"><tspan x="0" y="0">Masse</tspan></text>
+        <text class="cls-41" transform="translate(4.9 355)"><tspan x="0" y="0">Ladung</tspan></text>
+        <text class="cls-41" transform="translate(37 395)"><tspan x="0" y="0">Spin</tspan></text>
+      </g>
+      <g>
+        <text class="cls-40" transform="translate(70 770) rotate(-90)"><tspan x="0" y="0">QUARKS</tspan></text>
+        <g>
+          <g id="tilequ">
+            <g id="box">
+              <rect class="cls-12" x="105" y="280" width="230" height="230" rx="25" ry="25"/>
+            </g>
+            <g id="ball">
+              <circle class="cls-38" cx="220" cy="375" r="50.4"/>
+              <circle class="cls-38" cx="220" cy="375" r="47.7"/>
+              <circle class="cls-50" cx="220" cy="375" r="45"/>
+            </g>
+          </g>
+          <text class="cls-27" transform="translate(202.2 395)"><tspan x="0" y="0">u</tspan></text>
+          <text class="cls-26" transform="translate(115 315)"><tspan class="cls-55" x="0" y="0">≃</tspan><tspan class="cls-47" x="12" y="0">2,2 MeV/c²</tspan></text>
+          <text class="cls-33" transform="translate(115 355)"><tspan x="0" y="0">⅔</tspan></text>
+          <text class="cls-33" transform="translate(115 395)"><tspan x="0" y="0">½</tspan></text>
+          <text class="cls-36" transform="translate(192 475)"><tspan x="0" y="0">Up</tspan></text>
+        </g>
+        <g>
+          <g id="tilequ-2" data-name="tilequ">
+            <g id="box-2" data-name="box">
+              <rect class="cls-16" x="105" y="530" width="230" height="230" rx="25" ry="25"/>
+            </g>
+            <g id="ball-2" data-name="ball">
+              <circle class="cls-38" cx="220" cy="625" r="50.4"/>
+              <circle class="cls-38" cx="220" cy="625" r="47.7"/>
+              <circle class="cls-53" cx="220" cy="625" r="45"/>
+            </g>
+          </g>
+          <text class="cls-27" transform="translate(202.2 645)"><tspan x="0" y="0">d</tspan></text>
+          <text class="cls-26" transform="translate(115 565)"><tspan class="cls-55" x="0" y="0">≃</tspan><tspan class="cls-47" x="12" y="0">4,7 MeV/c²</tspan></text>
+          <text class="cls-33" transform="translate(115 605)"><tspan x="0" y="0">−⅓</tspan></text>
+          <text class="cls-33" transform="translate(115 645)"><tspan x="0" y="0">½</tspan></text>
+          <text class="cls-36" transform="translate(162.8 725)"><tspan x="0" y="0">Down</tspan></text>
+        </g>
+        <g>
+          <g id="tilequ-3" data-name="tilequ">
+            <g id="box-3" data-name="box">
+              <rect class="cls-15" x="355" y="280" width="230" height="230" rx="25" ry="25"/>
+            </g>
+            <g id="ball-3" data-name="ball">
+              <circle class="cls-38" cx="470" cy="375" r="50.4"/>
+              <circle class="cls-38" cx="470" cy="375" r="47.7"/>
+              <circle class="cls-58" cx="470" cy="375" r="45"/>
+            </g>
+          </g>
+          <text class="cls-27" transform="translate(454 395)"><tspan x="0" y="0">c</tspan></text>
+          <text class="cls-26" transform="translate(365 315)"><tspan class="cls-55" x="0" y="0">≃</tspan><tspan class="cls-47" x="12" y="0">1,28 GeV/c²</tspan></text>
+          <text class="cls-33" transform="translate(365 355)"><tspan x="0" y="0">⅔</tspan></text>
+          <text class="cls-33" transform="translate(365 395)"><tspan x="0" y="0">½</tspan></text>
+          <text class="cls-36" transform="translate(403.5 475)"><tspan x="0" y="0">Charm</tspan></text>
+        </g>
+        <g>
+          <g id="tilequ-4" data-name="tilequ">
+            <g id="box-4" data-name="box">
+              <rect class="cls-22" x="355" y="530" width="230" height="230" rx="25" ry="25"/>
+            </g>
+            <g id="ball-4" data-name="ball">
+              <circle class="cls-38" cx="470" cy="625" r="50.4"/>
+              <circle class="cls-38" cx="470" cy="625" r="47.7"/>
+              <circle class="cls-57" cx="470" cy="625" r="45"/>
+            </g>
+          </g>
+          <text class="cls-27" transform="translate(454 645)"><tspan x="0" y="0">s</tspan></text>
+          <text class="cls-26" transform="translate(365 565)"><tspan class="cls-55" x="0" y="0">≃</tspan><tspan class="cls-47" x="12" y="0">96 MeV/c²</tspan></text>
+          <text class="cls-33" transform="translate(365 605)"><tspan x="0" y="0">−⅓</tspan></text>
+          <text class="cls-33" transform="translate(365 645)"><tspan x="0" y="0">½</tspan></text>
+          <text class="cls-36" transform="translate(391.8 725)"><tspan x="0" y="0">Strange</tspan></text>
+        </g>
+        <g>
+          <g id="tilequ-5" data-name="tilequ">
+            <g id="box-5" data-name="box">
+              <rect class="cls-11" x="605" y="280" width="230" height="230" rx="25" ry="25"/>
+            </g>
+            <g id="ball-5" data-name="ball">
+              <circle class="cls-38" cx="720" cy="375" r="50.4"/>
+              <circle class="cls-38" cx="720" cy="375" r="47.7"/>
+              <circle class="cls-10" cx="720" cy="375" r="45"/>
+            </g>
+          </g>
+          <text class="cls-27" transform="translate(711.1 395)"><tspan x="0" y="0">t</tspan></text>
+          <text class="cls-26" transform="translate(615 315)"><tspan class="cls-55" x="0" y="0">≃</tspan><tspan class="cls-47" x="12" y="0">173,1 GeV/c²</tspan></text>
+          <text class="cls-33" transform="translate(615 355)"><tspan x="0" y="0">⅔</tspan></text>
+          <text class="cls-33" transform="translate(615 395)"><tspan x="0" y="0">½</tspan></text>
+          <text class="cls-36" transform="translate(683.1 475)"><tspan x="0" y="0">Top</tspan></text>
+        </g>
+        <g>
+          <g id="tilequ-6" data-name="tilequ">
+            <g id="box-6" data-name="box">
+              <rect class="cls-21" x="605" y="530" width="230" height="230" rx="25" ry="25"/>
+            </g>
+            <g id="ball-6" data-name="ball">
+              <circle class="cls-38" cx="720" cy="625" r="50.4"/>
+              <circle class="cls-38" cx="720" cy="625" r="47.7"/>
+              <circle class="cls-52" cx="720" cy="625" r="45"/>
+            </g>
+          </g>
+          <text class="cls-27" transform="translate(702.2 645)"><tspan x="0" y="0">b</tspan></text>
+          <text class="cls-26" transform="translate(615 565)"><tspan class="cls-55" x="0" y="0">≃</tspan><tspan class="cls-47" x="12" y="0">4,18 GeV/c²</tspan></text>
+          <text class="cls-33" transform="translate(615 605)"><tspan x="0" y="0">−⅓</tspan></text>
+          <text class="cls-33" transform="translate(615 645)"><tspan x="0" y="0">½</tspan></text>
+          <text class="cls-36" transform="translate(646.5 725)"><tspan x="0" y="0">Bottom</tspan></text>
+        </g>
+      </g>
+      <g>
+        <text class="cls-39" transform="translate(70 1270) rotate(-90)"><tspan x="0" y="0">LEPTONEN</tspan></text>
+        <g>
+          <g id="tilele">
+            <g id="box-7" data-name="box">
+              <rect class="cls-9" x="105" y="795" width="230" height="230" rx="25" ry="25"/>
+            </g>
+            <g id="ball-7" data-name="ball">
+              <circle class="cls-6" cx="220" cy="890" r="50.4"/>
+              <circle class="cls-6" cx="220" cy="890" r="47.7"/>
+              <circle class="cls-5" cx="220" cy="890" r="45"/>
+            </g>
+          </g>
+          <text class="cls-27" transform="translate(202.2 910)"><tspan x="0" y="0">e</tspan></text>
+          <text class="cls-26" transform="translate(115 830)"><tspan class="cls-55" x="0" y="0">≃</tspan><tspan class="cls-47" x="12" y="0">0,511 MeV/c²</tspan></text>
+          <text class="cls-33" transform="translate(115 870)"><tspan x="0" y="0">−1</tspan></text>
+          <text class="cls-33" transform="translate(115 910)"><tspan x="0" y="0">½</tspan></text>
+          <text class="cls-36" transform="translate(136 990)"><tspan x="0" y="0">Elektron</tspan></text>
+        </g>
+        <g>
+          <g id="tilele-2" data-name="tilele">
+            <g id="box-8" data-name="box">
+              <rect class="cls-9" x="105" y="1045" width="230" height="230" rx="25" ry="25"/>
+            </g>
+            <g id="ball-8" data-name="ball">
+              <circle class="cls-6" cx="220" cy="1140" r="50.4"/>
+              <circle class="cls-6" cx="220" cy="1140" r="47.7"/>
+              <circle class="cls-4" cx="220" cy="1140" r="45"/>
+            </g>
+          </g>
+          <g class="cls-37">
+            <text class="cls-35" transform="translate(193.1 1150)"><tspan x="0" y="0">ν</tspan></text>
+            <text class="cls-43" transform="translate(225.6 1158)"><tspan x="0" y="0">e</tspan></text>
+          </g>
+          <text class="cls-33" transform="translate(115 1080)"><tspan x="0" y="0">&lt;1,0 eV/c²</tspan></text>
+          <text class="cls-33" transform="translate(115 1120)"><tspan x="0" y="0">0</tspan></text>
+          <text class="cls-33" transform="translate(115 1160)"><tspan x="0" y="0">½</tspan></text>
+          <g class="cls-37">
+            <text class="cls-32" transform="translate(142 1220)"><tspan x="0" y="0">Elektron-</tspan></text>
+            <text class="cls-32" transform="translate(146 1260)"><tspan x="0" y="0">Neutrino</tspan></text>
+          </g>
+        </g>
+        <g>
+          <g id="tilele-3" data-name="tilele">
+            <g id="box-9" data-name="box">
+              <rect class="cls-9" x="355" y="795" width="230" height="230" rx="25" ry="25"/>
+            </g>
+            <g id="ball-9" data-name="ball">
+              <circle class="cls-6" cx="470" cy="890" r="50.4"/>
+              <circle class="cls-6" cx="470" cy="890" r="47.7"/>
+              <circle class="cls-7" cx="470" cy="890" r="45"/>
+            </g>
+          </g>
+          <text class="cls-35" transform="translate(450.7 910)"><tspan x="0" y="0">μ</tspan></text>
+          <text class="cls-26" transform="translate(365 830)"><tspan class="cls-55" x="0" y="0">≃</tspan><tspan class="cls-47" x="12" y="0">105,66 MeV/c²</tspan></text>
+          <text class="cls-33" transform="translate(365 870)"><tspan x="0" y="0">−1</tspan></text>
+          <text class="cls-33" transform="translate(365 910)"><tspan x="0" y="0">½</tspan></text>
+          <text class="cls-36" transform="translate(415.2 990)"><tspan x="0" y="0">Myon</tspan></text>
+        </g>
+        <g>
+          <g id="tilele-4" data-name="tilele">
+            <g id="box-10" data-name="box">
+              <rect class="cls-9" x="355" y="1045" width="230" height="230" rx="25" ry="25"/>
+            </g>
+            <g id="ball-10" data-name="ball">
+              <circle class="cls-6" cx="470" cy="1140" r="50.4"/>
+              <circle class="cls-6" cx="470" cy="1140" r="47.7"/>
+              <circle class="cls-8" cx="470" cy="1140" r="45"/>
+            </g>
+          </g>
+          <g class="cls-37">
+            <text class="cls-35" transform="translate(440.9 1150)"><tspan x="0" y="0">ν</tspan></text>
+            <text class="cls-43" transform="translate(473.4 1158)"><tspan x="0" y="0">μ</tspan></text>
+          </g>
+          <text class="cls-33" transform="translate(365 1080)"><tspan x="0" y="0">&lt;0,17 MeV/c²</tspan></text>
+          <text class="cls-33" transform="translate(365 1120)"><tspan x="0" y="0">0</tspan></text>
+          <text class="cls-33" transform="translate(365 1160)"><tspan x="0" y="0">½</tspan></text>
+          <g class="cls-37">
+            <text class="cls-32" transform="translate(417 1220)"><tspan x="0" y="0">Myon-</tspan></text>
+            <text class="cls-32" transform="translate(396 1260)"><tspan x="0" y="0">Neutrino</tspan></text>
+          </g>
+        </g>
+        <g>
+          <g id="tilele-5" data-name="tilele">
+            <g id="box-11" data-name="box">
+              <rect class="cls-9" x="605" y="795" width="230" height="230" rx="25" ry="25"/>
+            </g>
+            <g id="ball-11" data-name="ball">
+              <circle class="cls-6" cx="720" cy="890" r="50.4"/>
+              <circle class="cls-6" cx="720" cy="890" r="47.7"/>
+              <circle class="cls-3" cx="720" cy="890" r="45"/>
+            </g>
+          </g>
+          <text class="cls-35" transform="translate(705.5 910)"><tspan x="0" y="0">τ</tspan></text>
+          <text class="cls-26" transform="translate(615 830)"><tspan class="cls-55" x="0" y="0">≃</tspan><tspan class="cls-47" x="12" y="0">1,7768 GeV/c²</tspan></text>
+          <text class="cls-33" transform="translate(615 870)"><tspan x="0" y="0">−1</tspan></text>
+          <text class="cls-33" transform="translate(615 910)"><tspan x="0" y="0">½</tspan></text>
+          <text class="cls-36" transform="translate(658.6 990)"><tspan x="0" y="0">Tauon</tspan></text>
+        </g>
+        <g>
+          <g id="tilele-6" data-name="tilele">
+            <g id="box-12" data-name="box">
+              <rect class="cls-9" x="605" y="1045" width="230" height="230" rx="25" ry="25"/>
+            </g>
+            <g id="ball-12" data-name="ball">
+              <circle class="cls-6" cx="720" cy="1140" r="50.4"/>
+              <circle class="cls-6" cx="720" cy="1140" r="47.7"/>
+              <circle class="cls-1" cx="720" cy="1140" r="45"/>
+            </g>
+          </g>
+          <g class="cls-37">
+            <text class="cls-35" transform="translate(694.1 1150)"><tspan x="0" y="0">ν</tspan></text>
+            <text class="cls-43" transform="translate(726.6 1158)"><tspan x="0" y="0">τ</tspan></text>
+          </g>
+          <text class="cls-33" transform="translate(615 1080)"><tspan x="0" y="0">&lt;18,2 MeV/c²</tspan></text>
+          <text class="cls-33" transform="translate(615 1120)"><tspan x="0" y="0">0</tspan></text>
+          <text class="cls-33" transform="translate(615 1160)"><tspan x="0" y="0">½</tspan></text>
+          <g class="cls-37">
+            <text class="cls-32" transform="translate(661.4 1220)"><tspan x="0" y="0">Tauon-</tspan></text>
+            <text class="cls-32" transform="translate(646 1260)"><tspan x="0" y="0">Neutrino</tspan></text>
+          </g>
+        </g>
+      </g>
+      <g>
+        <text class="cls-34" transform="translate(1170 1270) rotate(-90)"><tspan x="0" y="0">EICHBOSONEN</tspan></text>
+        <text class="cls-25" transform="translate(1210 1270) rotate(-90)"><tspan x="0" y="0">VEKTORBOSONEN</tspan></text>
+        <g>
+          <g id="tilegb">
+            <g id="box-13" data-name="box">
+              <rect class="cls-19" x="865" y="280" width="230" height="230" rx="25" ry="25"/>
+            </g>
+            <g id="ball-13" data-name="ball">
+              <circle class="cls-38" cx="980" cy="375" r="50.4"/>
+              <circle class="cls-38" cx="980" cy="375" r="47.7"/>
+              <circle class="cls-46" cx="980" cy="375" r="45"/>
+            </g>
+          </g>
+          <text class="cls-27" transform="translate(962.2 395)"><tspan x="0" y="0">g</tspan></text>
+          <text class="cls-33" transform="translate(875 315)"><tspan x="0" y="0">0</tspan></text>
+          <text class="cls-33" transform="translate(875 355)"><tspan x="0" y="0">0</tspan></text>
+          <text class="cls-33" transform="translate(875 395)"><tspan x="0" y="0">1</tspan></text>
+          <text class="cls-36" transform="translate(919.3 475)"><tspan x="0" y="0">Gluon</tspan></text>
+        </g>
+        <g>
+          <g id="tilegb-2" data-name="tilegb">
+            <g id="box-14" data-name="box">
+              <rect class="cls-13" x="865" y="530" width="230" height="230" rx="25" ry="25"/>
+            </g>
+            <g id="ball-14" data-name="ball">
+              <circle class="cls-38" cx="980" cy="625" r="50.4"/>
+              <circle class="cls-38" cx="980" cy="625" r="47.7"/>
+              <circle class="cls-56" cx="980" cy="625" r="45"/>
+            </g>
+          </g>
+          <text class="cls-35" transform="translate(964.1 645)"><tspan x="0" y="0">γ</tspan></text>
+          <text class="cls-33" transform="translate(875 565)"><tspan x="0" y="0">0</tspan></text>
+          <text class="cls-33" transform="translate(875 605)"><tspan x="0" y="0">0</tspan></text>
+          <text class="cls-33" transform="translate(875 645)"><tspan x="0" y="0">1</tspan></text>
+          <text class="cls-36" transform="translate(907.7 725)"><tspan x="0" y="0">Photon</tspan></text>
+        </g>
+        <g>
+          <g id="tilegb-3" data-name="tilegb">
+            <g id="box-15" data-name="box">
+              <rect class="cls-20" x="865" y="795" width="230" height="230" rx="25" ry="25"/>
+            </g>
+            <g id="ball-15" data-name="ball">
+              <circle class="cls-38" cx="980" cy="890" r="50.4"/>
+              <circle class="cls-38" cx="980" cy="890" r="47.7"/>
+              <circle class="cls-51" cx="980" cy="890" r="45"/>
+            </g>
+          </g>
+          <text class="cls-27" transform="translate(960.5 910)"><tspan x="0" y="0">Z</tspan></text>
+          <text class="cls-26" transform="translate(875 830)"><tspan class="cls-55" x="0" y="0">≃</tspan><tspan class="cls-47" x="12" y="0">91,19 GeV/c²</tspan></text>
+          <text class="cls-33" transform="translate(875 870)"><tspan x="0" y="0">0</tspan></text>
+          <text class="cls-33" transform="translate(875 910)"><tspan x="0" y="0">1</tspan></text>
+          <text class="cls-36" transform="translate(894.9 990)"><tspan x="0" y="0">Z-Boson</tspan></text>
+        </g>
+        <g>
+          <g id="tilegb-4" data-name="tilegb">
+            <g id="box-16" data-name="box">
+              <rect class="cls-14" x="865" y="1045" width="230" height="230" rx="25" ry="25"/>
+            </g>
+            <g id="ball-16" data-name="ball">
+              <circle class="cls-38" cx="980" cy="1140" r="50.4"/>
+              <circle class="cls-38" cx="980" cy="1140" r="47.7"/>
+              <circle class="cls-48" cx="980" cy="1140" r="45"/>
+            </g>
+          </g>
+          <text class="cls-27" transform="translate(949.8 1160)"><tspan x="0" y="0">W</tspan></text>
+          <text class="cls-26" transform="translate(875 1080)"><tspan class="cls-55" x="0" y="0">≃</tspan><tspan class="cls-47" x="12" y="0">80,39 GeV/c²</tspan></text>
+          <text class="cls-33" transform="translate(875 1120)"><tspan x="0" y="0">±1</tspan></text>
+          <text class="cls-33" transform="translate(875 1160)"><tspan x="0" y="0">1</tspan></text>
+          <text class="cls-36" transform="translate(888.3 1240)"><tspan x="0" y="0">W-Boson</tspan></text>
+        </g>
+      </g>
+      <g>
+        <text class="cls-31" transform="translate(1350 1028) rotate(-90)"><tspan x="0" y="0">SKALARBOSONEN</tspan></text>
+        <g>
+          <g id="tilesb">
+            <g id="box-17" data-name="box">
+              <rect class="cls-17" x="1125" y="280" width="230" height="230" rx="25" ry="25"/>
+            </g>
+            <g id="ball-17" data-name="ball">
+              <circle class="cls-38" cx="1240" cy="375" r="50.4"/>
+              <circle class="cls-38" cx="1240" cy="375" r="47.7"/>
+              <circle class="cls-45" cx="1240" cy="375" r="45"/>
+            </g>
+          </g>
+          <text class="cls-27" transform="translate(1216.9 395)"><tspan x="0" y="0">H</tspan></text>
+          <text class="cls-26" transform="translate(1135 315)"><tspan class="cls-55" x="0" y="0">≃</tspan><tspan class="cls-47" x="12" y="0">124,97 GeV/c²</tspan></text>
+          <text class="cls-33" transform="translate(1135 355)"><tspan x="0" y="0">0</tspan></text>
+          <text class="cls-33" transform="translate(1135 395)"><tspan x="0" y="0">0</tspan></text>
+          <text class="cls-36" transform="translate(1181.7 475)"><tspan x="0" y="0">Higgs</tspan></text>
+        </g>
+      </g>
+      <g class="cls-54">
+        <text class="cls-30" transform="translate(1610 1028) rotate(-90)"><tspan x="0" y="0">TENSORBOSONEN</tspan></text>
+        <text class="cls-23" transform="translate(1555 836) rotate(-90)"><tspan x="0" y="0">HYPOTHETISCHE</tspan></text>
+        <g>
+          <g id="tiletb">
+            <g id="box-18" data-name="box">
+              <rect class="cls-18" x="1385" y="280" width="230" height="230" rx="25" ry="25"/>
+            </g>
+            <g id="ball-18" data-name="ball">
+              <circle class="cls-38" cx="1500" cy="375" r="50.4"/>
+              <circle class="cls-38" cx="1500" cy="375" r="47.7"/>
+              <circle class="cls-44" cx="1500" cy="375" r="45"/>
+            </g>
+          </g>
+          <text class="cls-27" transform="translate(1475.1 395)"><tspan x="0" y="0">G</tspan></text>
+          <text class="cls-33" transform="translate(1395 315)"><tspan x="0" y="0">0</tspan></text>
+          <text class="cls-33" transform="translate(1395 355)"><tspan x="0" y="0">0</tspan></text>
+          <text class="cls-33" transform="translate(1395 395)"><tspan x="0" y="0">2</tspan></text>
+          <text class="cls-36" transform="translate(1413.7 475)"><tspan x="0" y="0">Graviton</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
