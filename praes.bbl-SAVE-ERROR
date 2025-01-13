@@ -9796,7 +9796,7 @@
       \field{pages}{13}
       \range{pages}{1}
       \verb{file}
-      \verb rpp2018-rev-quark-model:Attachments/rpp2018-rev-quark-model.pdf:application/pdf
+      \verb C Amsler, T DeGrand et al 2017 - Quark Model:Attachments/C Amsler, T DeGrand et al 2017 - Quark Model.pdf:application/pdf;rpp2018-rev-quark-model:Attachments/rpp2018-rev-quark-model.pdf:application/pdf
       \endverb
       \verb{urlraw}
       \verb https://pdg.lbl.gov/2018/reviews/rpp2018-rev-quark-model.pdf
@@ -9886,6 +9886,44 @@
       \range{pages}{22}
       \verb{doi}
       \verb 10.1016/0550-3213(78)90417-0
+      \endverb
+    \endentry
+    \entry{KennethHicks.2015}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6a71ac967ba5ee7892cfde9e953f5b30}{%
+           family={{Kenneth Hicks}},
+           familyi={K\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {A new type of particle containing five quarks has been observed by the LHCb experiment}%
+      }
+      \strng{namehash}{6a71ac967ba5ee7892cfde9e953f5b30}
+      \strng{fullhash}{6a71ac967ba5ee7892cfde9e953f5b30}
+      \strng{fullhashraw}{6a71ac967ba5ee7892cfde9e953f5b30}
+      \strng{bibnamehash}{6a71ac967ba5ee7892cfde9e953f5b30}
+      \strng{authorbibnamehash}{6a71ac967ba5ee7892cfde9e953f5b30}
+      \strng{authornamehash}{6a71ac967ba5ee7892cfde9e953f5b30}
+      \strng{authorfullhash}{6a71ac967ba5ee7892cfde9e953f5b30}
+      \strng{authorfullhashraw}{6a71ac967ba5ee7892cfde9e953f5b30}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Elusive Pentaquark Comes into View}
+      \field{journaltitle}{Physics}
+      \field{pagination}{page}
+      \field{title}{Elusive Pentaquark Comes into View}
+      \field{volume}{8}
+      \field{year}{2015}
+      \field{pages}{77}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://physics.aps.org/articles/v8/77
+      \endverb
+      \verb{url}
+      \verb https://physics.aps.org/articles/v8/77
       \endverb
     \endentry
     \entry{Lipkin.1987}{article}{}{}

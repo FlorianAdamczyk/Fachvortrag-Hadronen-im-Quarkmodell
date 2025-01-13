@@ -78,7 +78,7 @@
 \begin{document}
 
     % Black slide
-    \begin{frame}[plain, noframenumbering]
+    \begin{frame}[plain, noframenumbering, handout:0]
         \begin{tikzpicture}[remember picture, overlay]
             \fill[black] (current page.south west) rectangle (current page.north east);
         \end{tikzpicture}
@@ -116,11 +116,11 @@
           \centering
           \includegraphics[width=\textwidth, keepaspectratio, height=0.85\textheight]{Standard_Model_of_Elementary_Particles_normal.png}\tiny
           \\\citeauthortitleurl{Wikipedia.Standardmodell}\end{minipage}
-        \hfill
+        \hfill \pause
         \begin{minipage}{0.48\textwidth}
           \begin{itemize}
-            \item Beschreibt Elementarteilchen \& Wechselwirkungen
-            \item Fermionen (Quarks, Leptonen) \& Bosonen (Vektorbosonen, Higgs-Boson)
+            \item Beschreibt Elementarteilchen \& Wechselwirkungen \pause
+            \item Fermionen (Quarks, Leptonen) \& Bosonen (Vektorbosonen, Higgs-Boson) \pause
             \item Starke, schwache \& elektromagnetische Wechselwirkung
           \end{itemize}
           \end{minipage}
@@ -137,12 +137,12 @@
           \\\citeauthortitleurl{Wikipedia.Standardmodell} \end{minipage}
         \hfill
         \begin{minipage}{0.48\textwidth}
-          \begin{itemize}
-            \item Up, Charm, Top: $+\frac{2}{3}e$
-            \item Down, Strange, Bottom: $-\frac{1}{3}e$
-            \item Up, Down, Strange: leichtere Quarks
-            \item Charm, Bottom: schwerer
-            \item Top bisher nicht in Hadronen gefunden
+          \begin{itemize}\pause
+            \item Up, Charm, Top: $+\frac{2}{3}e$\pause
+            \item Down, Strange, Bottom: $-\frac{1}{3}e$\pause
+            \item Up, Down, Strange: leichtere Quarks\pause
+            \item Charm, Bottom: schwerer\pause
+            \item Top: schwerstes Quark \pause
             \item \textbf{Quarks nie isoliert!}
           \end{itemize}
           \end{minipage}
@@ -153,41 +153,43 @@
     \subsection{Aufbau und Klassifizierung}
     \begin{frame}{Hadronen: Aufbau und Klassifizierung}
       \begin{itemize}
-        \item Zusammengesetzt aus Quarks (durch starke WW gebunden)
-        \item Baryonen (drei Quarks: Proton, Neutron, \dots)
-        \item Mesonen ($q\bar{q}$, z.B. Pion, Kaon, \dots)
+        \item <1-> Zusammengesetzt aus Quarks (durch starke WW gebunden)
+        \item <3-> Baryonen (drei Quarks: Proton, Neutron, \dots)
+        \item <4-> Mesonen ($q\bar{q}$, z.B. Pion, Kaon, \dots)
       \end{itemize}
       \centering
-      \includegraphics[width=\textwidth, height=0.4\textheight, keepaspectratio]{Bosons-Hadrons-Fermions-RGB-png2.png}
-      \figciteweburl{Wikipedia.Hadron}
+      \onslide<2->{\includegraphics[width=\textwidth, height=0.4\textheight, keepaspectratio]{Bosons-Hadrons-Fermions-RGB-png2.png}}
+      \onslide<2->{\figciteweburl{Wikipedia.Hadron}}
     \end{frame}
 
     \subsection{Das SU$_3$ Dekuplett}
     \begin{frame}{Das SU\(_3\) Dekuplett}
         \begin{minipage}{0.6\textwidth}
-          \begin{figure}
+      \onslide<4->{\begin{figure}
             \centering
           \includegraphics[width=\linewidth, keepaspectratio, height=0.8\textheight]{Baryon-decuplet-big.png}
           \tiny \\\citeauthortitle{Wikipedia.DeltaBaryon}, \citeurl{Wikipedia.DeltaBaryon}
-      \end{figure}
+      \end{figure}}
         \end{minipage}
         \hfill
         \begin{minipage}{0.38\textwidth}
+                   
           \begin{itemize}
-            \item I$_3$: Isospin
-            \item S: Strangeness
-            \item Q: Ladung % Grundzustand, parallele Spins und selben Falvour: Pauli Prinzip!!
+            \item<1-> S: Strangeness
+            \item<2-> Q: Ladung
+            \item<3-> I$_3$: Isospin % Grundzustand, parallele Spins und selben Falvour: Pauli Prinzip!!
           \end{itemize}
-          \vspace{1em}
-
+        \vspace{1em}
+          
           \begin{tabular}{c|ccc}
-            & I$_3$ & S & Q\\
+            & up & down & strange\\
             \hline
-            u & $\frac{1}{2}$ & $0$ & $+\frac{2}{3}$\\
-            d & $-\frac{1}{2}$ & $0$ & $-\frac{1}{3}$\\
-            s & $0$ & $-1$ & $-\frac{1}{3}$        
+            \onslide<1->{S & $0$ & $0$ & $-1$}\\
+            \onslide<2->{Q & $+\frac{2}{3}$ & $-\frac{1}{3}$ & $-\frac{1}{3}$}\\
+            \onslide<3->{I$_3$ & $\frac{1}{2}$ & $-\frac{1}{2}$ & $0$}
           \end{tabular}\\[1em]
-          $\rightarrow$\textbf{{ Einführung der \emph{Farbladung}}}
+                  
+          \onslide<5->{$\rightarrow$\textbf{{ Einführung der \emph{Farbladung}}}}
         \end{minipage}
     \end{frame}
     
@@ -209,9 +211,10 @@
           \end{minipage}
       \end{frame}
 
+      \section{Geschichte: \emph{\glqq Erfindung\grqq} der Quarks}
               \begin{frame}{Gell-Mann: Zusammensetzung der Hadronen}
-                \begin{figure}\includegraphics[height=0.85\textheight, width=\textwidth, keepaspectratio]{Images/8ad56d13-e301-4a37-be9c-7077ac16ce16.jpg}\\\small\cite[S.~214]{GellMann.1964}\end{figure}
-                \begin{tikzpicture}[remember picture, overlay]
+                \begin{figure}\includegraphics[height=0.85\textheight, width=\textwidth, keepaspectratio]{Images/8ad56d13-e301-4a37-be9c-7077ac16ce16.jpg}\\\small\cite[S.~214]{GellMann.1964,Zweig.1964}\end{figure}
+                \begin{tikzpicture}[remember picture, overlay]\pause
             \fill[yellow, opacity=0.3] (7, 1.9) rectangle (12.8, 2.7);
                 \end{tikzpicture}
     \end{frame}
@@ -223,11 +226,11 @@
       \begin{itemize}
         \item Idee von \textcite{GellMann.1964} wurde durch \textcite{Hogaasen.1978, Strottman.1979} erweitert:
         \\
-         \hspace{3mm} Theorie: $\mathrm{qqqq\bar{q}}$
+         \hspace{3mm} Theorie: $\mathrm{qqqq\bar{q}}$ \pause
          
-         \item \textcite{Lipkin.1987} erfand den Begriff Pentaquark
+         \item \textcite{Lipkin.1987} erfand den Begriff Pentaquark \pause
          \\[1em]
-         \item Jedoch keine experimentellen Hinweise
+         \item Jedoch keine experimentellen Hinweise \pause % Das Problem war halt einfach die Energie!
       \end{itemize}
     \end{minipage}
 \hfill
@@ -244,33 +247,34 @@
       \subsection{Experimentelle Entdeckung}
     \begin{frame}{LHCb: Untersuchung von $\mathrm{\Lambda_b^0}$ Zerfällen} %\emph{b steht für beauty}}
         \begin{minipage}{0.31\textwidth}
-          \includegraphics[width=\linewidth]{FeynmanDiag/Gesamt.png} 
-          \begin{tikzpicture}[remember picture, overlay]
+         \onslide<2->{ \includegraphics[width=\linewidth]{FeynmanDiag/Gesamt.png} 
+          \onslide<-2>{\begin{tikzpicture}[remember picture, overlay]
             \fill[white] (3.5, 0.47) rectangle (4.4, 3.5); % white box, verdeckt beschriftung!
-          \end{tikzpicture}
+          \end{tikzpicture}}
+          }
         \end{minipage}
         \hfill
         \begin{minipage}{0.67\textwidth}
           \begin{itemize}
             \item \textcite{Aaij.2015}: Untersuchung von $\mathrm{\Lambda_b^0} \to \mathrm{J}/\mathrm{\psi}\:\mathrm{K}^-\:\mathrm{p}$ Zerfällen.
-            \item Zerfälle könnten minimalen Quarkanteil von $c\bar{c}uud$ enthalten. \\ $\rightarrow$ Charmonium Pentaquarks ($P_c$)
+            \item<3-> Zerfälle könnten minimalen Quarkanteil von $c\bar{c}uud$ enthalten. \\ $\rightarrow$ Charmonium Pentaquarks ($P_c$)
           \end{itemize}
         \end{minipage}
           \\
-          \begin{figure}
+         \onslide<4->{\begin{figure}
           \centering
           \includegraphics[width=0.3\textwidth]{FeynmanDiag/pentaquark.png}
           \hspace{2cm}
           \includegraphics[width=0.3\textwidth]{FeynmanDiag/lambda.png}
           \caption{Feynmandiagramme der Zerfallskanäle von $\mathrm{\Lambda_b^0} \to \mathrm{J}/\mathrm{\psi}\:\mathrm{K}^-\:\mathrm{p}$\\\tiny \emph{Eigene Darstellung nach Daten von \textcite{Aaij.2015}}}
-      \end{figure}
+      \end{figure}}
   \end{frame}
 
 
     \begin{frame}{Ergebnis der LHCb 2015 Messungen}
       \begin{minipage}{0.38\textwidth}
       \begin{figure}\includegraphics[width=\textwidth, height=0.8\textheight, keepaspectratio]{lhcb-pc4450.png}
-        \\\cite[S.~2]{Aaij.2015}\end{figure}
+        \\\cite{Aaij.2015}\end{figure}
       \end{minipage}
       \hfill
       \begin{minipage}{0.6\textwidth}
@@ -285,7 +289,7 @@
       \begin{frame}{LHCb 2019: Genauere Messung und weitere Pentaquarks}
         \begin{minipage}{0.4\textwidth}
           \begin{figure}\includegraphics[width=\textwidth]{Images/76e29612-a8a4-4650-8573-5e331d33a362.jpg}
-            \caption{\cite{Aaij.2019}}\end{figure}
+            \caption[S.~4]{\cite{Aaij.2019}}\end{figure}\pause
         \end{minipage}
         \hfill
         \begin{minipage}{0.58\textwidth}
@@ -300,9 +304,9 @@
     
     \begin{frame}{Fazit}
       \begin{itemize}
-        \item Im \textbf{Standardmodell} werden Elementarteilchen und Wechselwirkungen beschrieben
-        \item \textbf{Hadronen} bestehen aus 2, 4 (Mesonen), 3 oder 5 (Baryonen) Quarks.
-        \item Quarks sind unterschiedlich schwer und \textbf{nie isoliert}
+        \item Im \textbf{Standardmodell} werden Elementarteilchen und Wechselwirkungen beschrieben. \pause
+        \item \textbf{Hadronen} bestehen aus 2, 4 (Mesonen), 3 oder 5 (Baryonen) Quarks.\pause
+        \item Quarks sind unterschiedlich schwer und \textbf{nie isoliert}\pause
         \item \textbf{Pentaquarks} bestehen aus $\mathrm{qqqq\bar{q}}$ und wurden 2015 am LHCb entdeckt.
       \end{itemize}
       \centering
@@ -318,7 +322,7 @@
   \end{frame}
 
 % Black slide
-\begin{frame}[plain, noframenumbering]
+\begin{frame}[plain, noframenumbering, handout:0]
   \begin{tikzpicture}[remember picture, overlay]
       \fill[black] (current page.south west) rectangle (current page.north east);
   \end{tikzpicture}
