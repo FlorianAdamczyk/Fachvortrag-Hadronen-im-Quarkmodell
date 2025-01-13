@@ -78,14 +78,14 @@
 \begin{document}
 
     % Black slide
-    \begin{frame}[plain, noframenumbering, handout:0]
+    \begin{frame}<handout:0>[plain, noframenumbering]
         \begin{tikzpicture}[remember picture, overlay]
             \fill[black] (current page.south west) rectangle (current page.north east);
         \end{tikzpicture}
     \end{frame}
 
     % Appetizer Slide
-    \begin{frame}[noframenumbering, plain]{Eine Reise in den Zoo der Teilchen}
+    \begin{frame}<handout:0>[noframenumbering, plain]{Eine Reise in den Zoo der Teilchen}
         \centering
         \includegraphics[width=\textwidth, height=0.9\textheight, keepaspectratio]{atom.jpg}
         \figciteweburl{Bonn.19.08.2021}
@@ -322,13 +322,13 @@
   \end{frame}
 
 % Black slide
-\begin{frame}[plain, noframenumbering, handout:0]
+\begin{frame}<handout:0>[plain, noframenumbering]
   \begin{tikzpicture}[remember picture, overlay]
       \fill[black] (current page.south west) rectangle (current page.north east);
   \end{tikzpicture}
 \end{frame}
 
-  \begin{frame}[noframenumbering, plain, allowframebreaks]{Anhang}
+  \begin{frame}<handout:0>[noframenumbering, plain, allowframebreaks]{Anhang}
       \begin{minipage}{0.4\textwidth}
         \textbf{Quarkzusammensetzung}
         \begin{itemize}
